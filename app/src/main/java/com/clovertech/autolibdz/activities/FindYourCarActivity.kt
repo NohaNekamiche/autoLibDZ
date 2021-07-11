@@ -6,7 +6,9 @@ import android.bluetooth.BluetoothAdapter
 import android.bluetooth.BluetoothServerSocket
 import android.bluetooth.BluetoothSocket
 import android.content.ContentValues
+import android.content.Context
 import android.content.Intent
+import android.content.SharedPreferences
 import android.content.pm.PackageManager
 import android.os.Build
 import android.os.Bundle
@@ -18,6 +20,7 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
 import com.clovertech.autolibdz.R
+import com.clovertech.autolibdz.utils.Constants
 import com.skyfishjy.library.RippleBackground
 import io.socket.client.IO
 import io.socket.client.Socket
@@ -30,7 +33,7 @@ import java.util.*
 
 var rippleBackground: RippleBackground? = null
 class FindYourCarActivity : AppCompatActivity() {
-
+    var idcar=0
     private lateinit var mSocket: Socket
     var bluetoothAdapter: BluetoothAdapter? = null
 
@@ -65,6 +68,9 @@ class FindYourCarActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_find_your_car)
 
+
+        val preferences: SharedPreferences =getSharedPreferences(Constants.APP_PREFS, Context.MODE_PRIVATE)
+        preferences.getInt("idcar", idcar)
         rippleBackground = findViewById<View>(R.id.content) as RippleBackground
         rippleBackground?.startRippleAnimation()
 
@@ -109,7 +115,7 @@ class FindYourCarActivity : AppCompatActivity() {
         linkButton.setOnClickListener {
             rippleBackground?.stopRippleAnimation()
             val jsonInfos = JSONObject()
-            jsonInfos.put("idVehicule", 5)
+            jsonInfos.put("idVehicule", idcar)
             val jsonInfosObj = JSONObject()
             jsonInfosObj.put("id", 5)
             val mBluetoothAdapter = BluetoothAdapter.getDefaultAdapter()

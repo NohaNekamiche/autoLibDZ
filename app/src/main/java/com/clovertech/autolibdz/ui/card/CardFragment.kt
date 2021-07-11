@@ -44,7 +44,7 @@ class CardFragment : Fragment() {
         val id=arguments?.getInt("idrental").toString()
         val idcar=arguments?.getInt("idcar")
         val add_card_fragment = AddCardFragment()
-        Toast.makeText(context,"amount to pay $amount", Toast.LENGTH_LONG).show()
+
         val fragmentManager = (activity as FragmentActivity).supportFragmentManager
         add_card.setOnClickListener {
             add_card_fragment.show(fragmentManager,"add_card_fragment")

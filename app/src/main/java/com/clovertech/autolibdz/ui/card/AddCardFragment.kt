@@ -76,7 +76,7 @@ class AddCardFragment : BottomSheetDialogFragment () {
 
 
             val paymentMethod = PaymentMethod(CardRequest(number,exp_month,exp_year,cvc), Adress("Algiers","Algeria",
-                    "line1","16000"),"Lamia"+" "+"Selmane")
+                    "line1","16000"),nom+" "+prenom)
 
 
             viewModel.pushCard(paymentMethod)

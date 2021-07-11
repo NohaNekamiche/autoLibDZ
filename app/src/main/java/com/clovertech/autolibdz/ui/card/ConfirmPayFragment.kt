@@ -96,7 +96,7 @@ class ConfirmPayFragment : BottomSheetDialogFragment() {
             viewModel.PayResponse.observe(viewLifecycleOwner, Observer { response ->
                 if (response.isSuccessful) {
 
-                   // validateRental()
+                    validateRental()
                     Log.e("Push", (response.body().toString()))
                     Log.e("Push", response.code().toString())
                     Log.e("Push", response.message())
@@ -158,7 +158,7 @@ class ConfirmPayFragment : BottomSheetDialogFragment() {
                     Log.e("Push", response.message().toString())
                     Toast.makeText(
                             context,
-                            "echec",
+                            "server error",
                             Toast.LENGTH_SHORT
                     ).show()
                 }
