@@ -8,18 +8,21 @@ import android.content.Intent
 import android.content.IntentFilter
 import android.net.Uri
 import android.os.Environment
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import androidx.cardview.widget.CardView
 import androidx.recyclerview.widget.RecyclerView
 import com.clovertech.autolibdz.api.FactureApi
 import com.clovertech.autolibdz.model.Facture
 import com.clovertech.autolibdz.R
 import com.clovertech.autolibdz.repository.FactureRepository
+import com.clovertech.autolibdz.utils.Constants
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
@@ -34,12 +37,13 @@ class BillAdapter (val context: Context, var data:List<Facture>): RecyclerView.A
 
     override fun onBindViewHolder(holder: MyBillHolder, position: Int) {
         var downId:Long=0
+        val rep=data[position]
 
-
-        holder.id_facture.text= data[position].idBill.toString()
-        val factID=data[position].idBill
-        holder.date_facture.text=data[position].creationDate.subSequence(0,10)
-        holder.prix.text=data[position].totalRate.toString()
+        holder.id_facture.text= rep.idBill.toString()
+        val factID=rep.idBill
+        val infodate=rep.creationDate
+        holder.date_facture.text="${rep.creationDate.subSequence(0,10)}"+"   "+" ${rep.creationDate.subSequence(12,16)}"
+        holder.prix.text=rep.totalRate.toString() +"DA"
         val penality=data[position].penaltyRate
         if (penality>0)
         {
@@ -53,47 +57,49 @@ class BillAdapter (val context: Context, var data:List<Facture>): RecyclerView.A
 
             val factureApi =  FactureApi()
             val repository= FactureRepository(factureApi)
-
+            val prefs =context. getSharedPreferences(Constants.APP_PREFS, AppCompatActivity.MODE_PRIVATE)
+            val token=prefs.getString("TOKEN","")
+            Log.d("token",token.toString())
 
             CoroutineScope(Dispatchers.Main).launch{
-                val response=repository.geBillByID(factID)
-                if(response.ok==true){
-                    Toast.makeText(context,response.urlBill,Toast.LENGTH_SHORT).show()
+                val response= token?.let { it1 -> repository.geBillByID(it1,factID) }
+                if (response != null) {
+                    if(response.ok==true){
+                        Toast.makeText(context,response.urlBill,Toast.LENGTH_SHORT).show()
 
 
-
-                    var request = DownloadManager.Request(
+                        var request = DownloadManager.Request(
                             Uri.parse("${response.urlBill}"))
                             .setTitle("Facture AutoLibDZ")
                             .setDescription("check your Bill ")
                             .setAllowedOverMetered(true)
                             .setDestinationInExternalPublicDir(Environment.DIRECTORY_DOWNLOADS, "Test.pdf")
                             .setNotificationVisibility(DownloadManager.Request.VISIBILITY_VISIBLE_NOTIFY_COMPLETED);
-                    var dm= context.getSystemService(DOWNLOAD_SERVICE) as DownloadManager
-                    downId = dm.enqueue(request)
+                        var dm= context.getSystemService(DOWNLOAD_SERVICE) as DownloadManager
+                        downId = dm.enqueue(request)
 
 
-                    var br = object:BroadcastReceiver(){
+                        var br = object:BroadcastReceiver(){
 
-                        override fun onReceive(context: Context?, intent: Intent?) {
+                            override fun onReceive(context: Context?, intent: Intent?) {
 
-                            var id : Long? = intent?.getLongExtra(DownloadManager.EXTRA_DOWNLOAD_ID,1)
+                                var id : Long? = intent?.getLongExtra(DownloadManager.EXTRA_DOWNLOAD_ID,1)
 
-                            if (id==downId)
-                            {
+                                if (id==downId) {
 
-                                Toast.makeText(context,"Bill Downloaded successfully",Toast.LENGTH_SHORT).show()
+                                    Toast.makeText(context,"Bill Downloaded successfully",Toast.LENGTH_SHORT).show()
+                                }
                             }
                         }
-                    }
-                    context.registerReceiver(br,IntentFilter(DownloadManager.ACTION_DOWNLOAD_COMPLETE))
+                        context.registerReceiver(br,IntentFilter(DownloadManager.ACTION_DOWNLOAD_COMPLETE))
 
-                }else {
-                    Toast.makeText(
+                    }else {
+                        Toast.makeText(
                             context,
                             "Error Occurred: ${response.ok}",
                             Toast.LENGTH_LONG
-                    ).show()
+                        ).show()
+                    }
                 }
 
 

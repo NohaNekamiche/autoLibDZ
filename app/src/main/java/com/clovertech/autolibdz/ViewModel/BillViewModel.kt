@@ -13,9 +13,9 @@ class BillViewModel(private val repository: FactureRepository): ViewModel() {
     private val myResponse= MutableLiveData<List<Facture>>()
     val facts: LiveData<List<Facture>>
         get() = myResponse
-    fun getFact(){
+    fun getFact(token:String){
         job= CouroutineFact.ioThenMain(
-                {repository.getFactures()},
+                {repository.getFactures(token)},
                 {myResponse.value=it})
     }
 

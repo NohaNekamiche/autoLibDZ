@@ -6,11 +6,12 @@ import retrofit2.Response
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 import retrofit2.http.GET
+import retrofit2.http.Header
 import retrofit2.http.Path
 
 interface FactureApi {
     @GET("all")
-    suspend fun getFactures():Response<MutableList<Facture>>
+    suspend fun getFactures(@Header("authorization")token:String):Response<MutableList<Facture>>
 
     companion object{
         operator fun invoke(): FactureApi {
@@ -23,5 +24,7 @@ interface FactureApi {
         }
     }
     @GET("download/{idBill}")
-    suspend fun getBillByID(@Path("idBill") idBill : Int): Response<DownResponse>
+    suspend fun getBillByID(
+        @Header("authorization")token:String,
+        @Path("idBill") idBill : Int): Response<DownResponse>
 }

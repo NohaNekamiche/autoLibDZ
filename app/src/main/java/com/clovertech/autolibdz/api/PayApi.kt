@@ -3,10 +3,7 @@ package com.clovertech.autolibdz.api
 import com.clovertech.autolibdz.model.*
 import retrofit2.Call
 import retrofit2.Response
-import retrofit2.http.Body
-import retrofit2.http.GET
-import retrofit2.http.POST
-import retrofit2.http.Path
+import retrofit2.http.*
 
 interface PayApi {
     @POST("add")
@@ -15,6 +12,7 @@ interface PayApi {
     ): Response<paymentResponse>
     @POST("pay")
     suspend fun pay(
+            @Header("authorization")token:String,
             @Body pay: Pay
     ): Response<PayResponse>
     @POST("addSub")

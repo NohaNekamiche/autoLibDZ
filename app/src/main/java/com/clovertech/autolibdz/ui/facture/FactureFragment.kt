@@ -1,10 +1,12 @@
 package com.clovertech.autolibdz.ui.facture
 
 import android.os.Bundle
+import android.util.Log
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -14,6 +16,7 @@ import com.clovertech.autolibdz.R
 import com.clovertech.autolibdz.ViewModel.BillViewModel
 import com.clovertech.autolibdz.ViewModel.BillViewModelFactory
 import com.clovertech.autolibdz.repository.FactureRepository
+import com.clovertech.autolibdz.utils.Constants
 import kotlinx.android.synthetic.main.fragment_facture.*
 
 class FactureFragment :Fragment(){
@@ -36,11 +39,16 @@ class FactureFragment :Fragment(){
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
+        val prefs =requireActivity(). getSharedPreferences(Constants.APP_PREFS, AppCompatActivity.MODE_PRIVATE)
+        val token=prefs.getString("TOKEN","")
+        Log.d("token",token.toString())
         val api= FactureApi()
         val repository=FactureRepository(api)
         val factory=BillViewModelFactory(repository)
         billViewModel=ViewModelProvider(this,factory).get(BillViewModel::class.java)
-        billViewModel.getFact()
+        if (token != null) {
+            billViewModel.getFact(token)
+        }
         billViewModel.facts.observe(viewLifecycleOwner, Observer { factList->
             list_facture.also {
                 it.layoutManager=LinearLayoutManager(requireContext())

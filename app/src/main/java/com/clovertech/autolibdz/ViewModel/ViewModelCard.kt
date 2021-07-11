@@ -28,9 +28,9 @@ class ViewModelCard(private val repository: PaymentRepository): ViewModel() {
             AddCardResponse.value = response
         }
     }
-    fun pay(pay: Pay){
+    fun pay(token:  String,pay: Pay){
         viewModelScope.launch {
-            val response: Response<PayResponse> = repository.pay(pay)
+            val response: Response<PayResponse> = repository.pay(token,pay)
             PayResponse.value = response
         }
     }

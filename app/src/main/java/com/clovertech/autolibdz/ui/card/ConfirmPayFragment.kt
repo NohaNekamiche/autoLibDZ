@@ -83,11 +83,15 @@ class ConfirmPayFragment : BottomSheetDialogFragment() {
             val amount= arguments?.getString("amount").toString()
             val idRental= arguments?.getString("idRental").toString()
             val type=arguments?.getString("type").toString()
-
+            val prefs =requireActivity(). getSharedPreferences(Constants.APP_PREFS, AppCompatActivity.MODE_PRIVATE)
+            val token=prefs.getString("TOKEN","")
+            Log.d("token",token.toString())
             Toast.makeText(context,amount,Toast.LENGTH_LONG).show()
             val pay = Pay(paymentId,amount,idRental,type,idCodePromo)
 
-            viewModel.pay(pay)
+            if (token != null) {
+                viewModel.pay(token,pay)
+            }
             viewModel.PayResponse.observe(viewLifecycleOwner, Observer { response ->
                 if (response.isSuccessful) {
 
