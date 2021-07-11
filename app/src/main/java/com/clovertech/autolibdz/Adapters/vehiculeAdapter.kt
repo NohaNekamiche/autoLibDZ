@@ -35,23 +35,23 @@ class MyCarAdapter(val context: Context, var data: List<Vehicle>): RecyclerView.
 
         holder.prix4.text=data[position].unitPricePerDay.toString()+"DA/Jr"
         holder.details.setOnClickListener { v->
-        val car=data[position]
-        val  id=data[position].idVehicle
-        val  img=data[position].image
-        val  uni_hr=data[position].unitPricePerHour
-        val  uni_jr=data[position].unitPricePerDay
-        val  model=data[position].vehiclemodel
-        val vehiclebrand=data[position].vehiclebrand
-        val matricule=data[position].registrationNumber
-        val color=data[position].vehicleColor
-        val fuel=data[position].fuelType
-         val lat=data[position].latitude
+            val car=data[position]
+            val  id=data[position].idVehicle
+            val  img=data[position].image
+            val  uni_hr=data[position].unitPricePerHour
+            val  uni_jr=data[position].unitPricePerDay
+            val  model=data[position].vehiclemodel
+            val vehiclebrand=data[position].vehiclebrand
+            val matricule=data[position].registrationNumber
+            val color=data[position].vehicleColor
+            val fuel=data[position].fuelType
+            val lat=data[position].latitude
             val lang=data[position].longitude
-        val bundle = bundleOf("id" to id,"img" to img,"com/clovertech/autolibdz/model" to model, "hr" to uni_hr, "jr" to uni_jr ,
-            "brand" to vehiclebrand, "matricule" to matricule,"color" to color,
+            val bundle = bundleOf("id" to id,"img" to img,"model" to model, "hr" to uni_hr, "jr" to uni_jr ,
+                "brand" to vehiclebrand, "matricule" to matricule,"color" to color,
                 "fuel" to fuel,"lat" to lat,"lang" to lang
             )
-        v?.findNavController()?.navigate(R.id.action_nav_home_to_nav_listcar,bundle)
+            v?.findNavController()?.navigate(R.id.action_nav_home_to_nav_listcar,bundle)
         }
 
         /*  holder.details.setOnClickListener { v->

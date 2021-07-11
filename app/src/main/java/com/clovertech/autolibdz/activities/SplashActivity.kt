@@ -28,6 +28,7 @@ class SplashActivity : AppCompatActivity() {
                         if(!prefs.getString("TOKEN","").isNullOrEmpty()){
                             val toMain = Intent(this@SplashActivity, CarsActivity::class.java)
                             startActivity(toMain)
+                            finish()
                         }else{
                             val toMain = Intent(this@SplashActivity, MainActivity::class.java)
                             startActivity(toMain)
