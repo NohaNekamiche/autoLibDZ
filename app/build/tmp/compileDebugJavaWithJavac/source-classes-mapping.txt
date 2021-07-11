@@ -1,0 +1,16 @@
+com/clovertech/autolibdz/BR.java
+ com.clovertech.autolibdz.BR
+com/clovertech/autolibdz/DataBindingTriggerClass.java
+ com.clovertech.autolibdz.DataBindingTriggerClass
+androidx/databinding/DataBinderMapperImpl.java
+ androidx.databinding.DataBinderMapperImpl
+com/clovertech/autolibdz/DataBinderMapperImpl.java
+ com.clovertech.autolibdz.DataBinderMapperImpl
+ com.clovertech.autolibdz.DataBinderMapperImpl$InnerBrLookup
+ com.clovertech.autolibdz.DataBinderMapperImpl$InnerLayoutIdLookup
+com/clovertech/autolibdz/BuildConfig.java
+ com.clovertech.autolibdz.BuildConfig
+androidx/databinding/library/baseAdapters/BR.java
+ androidx.databinding.library.baseAdapters.BR
+androidx/databinding/DataBindingComponent.java
+ androidx.databinding.DataBindingComponent

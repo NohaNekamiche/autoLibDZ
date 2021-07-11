@@ -1,0 +1,798 @@
+[
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24__circle_white.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable-v24\\_circle_white.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_menu_camera.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable-v24\\ic_menu_camera.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_support.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable-v24\\ic_support.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_download.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable-v24\\ic_download.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_logo_yellow.png.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable\\ic_logo_yellow.png"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_access_time.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable-v24\\ic_access_time.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_check.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable\\ic_check.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_subscription.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\layout\\fragment_subscription.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_x_solid_orange_10dp.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable-v24\\x_solid_orange_10dp.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_rating_bgr.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable-v24\\rating_bgr.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_register3.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\layout\\fragment_register3.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_baseline_directions_car_24.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable-v24\\ic_baseline_directions_car_24.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\font_monteserrat_regular.ttf.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\font\\monteserrat_regular.ttf"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\font_montserrat_bold.ttf.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\font\\montserrat_bold.ttf"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_arrow_forward_24.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable\\ic_baseline_arrow_forward_24.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_on_boarding.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\layout\\activity_on_boarding.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_search_input.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable-v24\\search_input.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_login.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_add_sub.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\layout\\fragment_add_sub.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_input.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable-v24\\input.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\layout_custom_search_dialog_position_expanded.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\layout\\custom_search_dialog_position_expanded.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\layout_custom_search_dialog_yello.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\layout\\custom_search_dialog_yello.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_register2.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\layout\\fragment_register2.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable_input_bakground.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable\\input_bakground.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ccp_logo.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable-v24\\ccp_logo.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\layout_promo_item.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\layout\\promo_item.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_baseline_redeem_24.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable-v24\\ic_baseline_redeem_24.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_local_gas_station_24.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable\\ic_baseline_local_gas_station_24.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_register1.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\layout\\fragment_register1.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_forward.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable-v24\\ic_forward.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\layout_end_location.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\layout\\end_location.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_access_time.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable\\ic_access_time.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_round_settings_24.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable-v24\\ic_round_settings_24.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\layout_car_elt.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\layout\\car_elt.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_profil.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable-v24\\ic_profil.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\layout_nav_header_main.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\layout\\nav_header_main.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24__rounded_10dp_active.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable-v24\\_rounded_10dp_active.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_reset_password2.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\layout\\fragment_reset_password2.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_phone.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable\\ic_phone.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_favorite_border.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable-v24\\ic_favorite_border.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_view_background.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable-v24\\view_background.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_logo_yellow.png.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable-v24\\ic_logo_yellow.png"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\font_monteserat_medium.ttf.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\font\\monteserat_medium.ttf"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable__rounded_top_20dp_white.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable\\_rounded_top_20dp_white.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_lock.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable-v24\\ic_lock.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\font_monteserrat_semibold.ttf.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\font\\monteserrat_semibold.ttf"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_location.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable\\ic_location.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_reset_password1.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\layout\\fragment_reset_password1.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_rating.png.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable-v24\\rating.png"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\layout_row_park.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\layout\\row_park.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_moins.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable-v24\\ic_moins.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_visa_inc__logo.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable\\ic_visa_inc__logo.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24__rounded_20dp_light_grey.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable-v24\\_rounded_20dp_light_grey.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_search.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable\\ic_search.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_confirm_sub_pay.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\layout\\fragment_confirm_sub_pay.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_register.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\layout\\activity_register.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\raw_lf30_editor_ittd7zeq.json.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\raw\\lf30_editor_ittd7zeq.json"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_baseline_stars_24.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable-v24\\ic_baseline_stars_24.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable__rounded_10dp_outline.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable\\_rounded_10dp_outline.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_rounded_input.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable-v24\\rounded_input.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_baseline_download_for_offline_24.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable-v24\\ic_baseline_download_for_offline_24.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_rounded_button.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable-v24\\rounded_button.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_signal.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\layout\\activity_signal.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_baseline_add_24.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable-v24\\ic_baseline_add_24.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable__rounded_10dp_active.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable\\_rounded_10dp_active.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_phone_call.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable-v24\\ic_phone_call.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_redeem_24.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable\\ic_baseline_redeem_24.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_circle_dark_grey_dot.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable-v24\\ic_circle_dark_grey_dot.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_side_nav_bar.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable-v24\\side_nav_bar.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable_logo.png.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable\\logo.png"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable__rounded_10dp_light_grey.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable\\_rounded_10dp_light_grey.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_phone_call.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable\\ic_phone_call.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\layout_car_image.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\layout\\car_image.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_arrow_back.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable\\ic_arrow_back.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable_stocker.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable\\stocker.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\layout_content_main.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\layout\\content_main.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_baseline_search_24.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable-v24\\ic_baseline_search_24.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_add_card.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\layout\\fragment_add_card.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable_drawer_background.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable\\drawer_background.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_key.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable-v24\\ic_key.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_image.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable-v24\\ic_image.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\font_montserrat.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\font\\montserrat.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic__warning_24.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable-v24\\ic__warning_24.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_car.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable-v24\\ic_car.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24__dotted.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable-v24\\_dotted.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_baseline_arrow_forward_24.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable-v24\\ic_baseline_arrow_forward_24.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable__circle_white.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable\\_circle_white.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_confirm_pay.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\layout\\fragment_confirm_pay.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_menu_gallery.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable-v24\\ic_menu_gallery.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_img1.jpg.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable-v24\\img1.jpg"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\layout_bottom_sheet_presistant_park.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\layout\\bottom_sheet_presistant_park.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_button_bgr.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable-v24\\button_bgr.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_circle_activated_dot.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable-v24\\ic_circle_activated_dot.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\layout_view_pager_item.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\layout\\view_pager_item.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_button_bgr2.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable-v24\\button_bgr2.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_list_car.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\layout\\fragment_list_car.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_alert.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable-v24\\ic_alert.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_check.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable-v24\\ic_check.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\layout_facture_item.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\layout\\facture_item.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_mc_symbol.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable\\ic_mc_symbol.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_favorite_border.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable\\ic_favorite_border.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_arrow_back.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable-v24\\ic_arrow_back.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_arrow_forward.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable-v24\\ic_arrow_forward.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_splash.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_find_your_car.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\layout\\activity_find_your_car.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\menu_activity_main_drawer.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\menu\\activity_main_drawer.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_car_pic.png.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable-v24\\car_pic.png"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_search.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable-v24\\ic_search.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_card.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable-v24\\ic_card.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_promo.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\layout\\fragment_promo.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_back.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable-v24\\ic_back.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_baseline_airline_seat_recline_normal_24.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable-v24\\ic_baseline_airline_seat_recline_normal_24.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_home.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable-v24\\ic_home.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_baseline_payment_24.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable-v24\\ic_baseline_payment_24.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_car_pic_brg.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable-v24\\car_pic_brg.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\layout_custom_search_dialog_black.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\layout\\custom_search_dialog_black.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_facture.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\layout\\fragment_facture.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_x_solid_grey_10dp.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable-v24\\x_solid_grey_10dp.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable_img1.jpg.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable\\img1.jpg"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_baseline_check_box_outline_blank_24.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable-v24\\ic_baseline_check_box_outline_blank_24.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_menu_slideshow.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable-v24\\ic_menu_slideshow.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_rounded_button_grey.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable-v24\\rounded_button_grey.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_baseline_speed_24.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable-v24\\ic_baseline_speed_24.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_baseline_electric_car_24.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable-v24\\ic_baseline_electric_car_24.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_background.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable-v24\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_baseline_star_24.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable-v24\\ic_baseline_star_24.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_card.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable\\ic_card.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_profile.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\layout\\activity_profile.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_baseline_exit_to_app_24.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable-v24\\ic_baseline_exit_to_app_24.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_cars_main.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\layout\\activity_cars_main.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\layout_row_positions.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\layout\\row_positions.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\layout_card_item.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\layout\\card_item.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_home.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable\\ic_home.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_baseline_facture_24.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable-v24\\ic_baseline_facture_24.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_message_24.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable\\ic_baseline_message_24.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\layout_tarification.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\layout\\tarification.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_circle.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable-v24\\circle.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_credit_card.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable-v24\\ic_credit_card.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\layout_app_bar_main.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\layout\\app_bar_main.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_logo_black.png.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable-v24\\ic_logo_black.png"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_edit.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable-v24\\ic_edit.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_image.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable\\ic_image.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable_master_card_background.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable\\master_card_background.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_x_solid_top_radius_10dp.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable-v24\\x_solid_top_radius_10dp.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_logo_white.jpg.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable\\ic_logo_white.jpg"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_baseline_local_gas_station_24.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable-v24\\ic_baseline_local_gas_station_24.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_arrow_forward.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable\\ic_arrow_forward.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable_visa_background.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable\\visa_background.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24__rounded_10dp_light_grey.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable-v24\\_rounded_10dp_light_grey.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable__rounded_20dp_light_grey.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable\\_rounded_20dp_light_grey.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_baseline_arrow_drop_down_24.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable-v24\\ic_baseline_arrow_drop_down_24.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_plus.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable-v24\\ic_plus.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_reset_password.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\layout\\activity_reset_password.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_account_box_24.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable\\ic_baseline_account_box_24.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_car_details.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\layout\\fragment_car_details.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\layout_bottom_bar_layout.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\layout\\bottom_bar_layout.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_logo_black.png.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable\\ic_logo_black.png"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_event.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable\\ic_event.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_email.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable-v24\\ic_email.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_event.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable-v24\\ic_event.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_email.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable\\ic_email.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_done_outline_24.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable\\ic_baseline_done_outline_24.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\layout_date_picker_spinner_mode.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\layout\\date_picker_spinner_mode.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_car.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable\\ic_car.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_phone.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable-v24\\ic_phone.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_home.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\layout\\activity_home.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24__rounded_10dp_outline.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable-v24\\_rounded_10dp_outline.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\navigation_mobile_navigation.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\navigation\\mobile_navigation.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\layout_custom_search_dialog_park_expanded.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\layout\\custom_search_dialog_park_expanded.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_logo_white.jpg.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable-v24\\ic_logo_white.jpg"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable__dotted.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable\\_dotted.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_img.jpg.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\mipmap-xxhdpi\\img.jpg"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_home.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_key.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable\\ic_key.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_card.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\layout\\fragment_card.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_location.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable-v24\\ic_location.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_profile_pic.png.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable-v24\\profile_pic.png"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_download_for_offline_24.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable\\ic_baseline_download_for_offline_24.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\raw_lf30_editor_i2vbfsvm.json.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\raw\\lf30_editor_i2vbfsvm.json"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\raw_lf30_editor_higrwe2d.json.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\raw\\lf30_editor_higrwe2d.json"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_card_bgr.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable-v24\\card_bgr.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\menu_main.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_white_rectangle_elt.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable-v24\\white_rectangle_elt.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_round.xml.flat",
+        "source": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\src\\main\\res\\drawable-v24\\round.xml"
+    }
+]
