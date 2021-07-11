@@ -1,5 +1,6 @@
 package com.clovertech.autolibdz.activities
 
+import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import android.view.Menu
@@ -79,7 +80,13 @@ class CarsActivity : AppCompatActivity() {
             }
         }*/
         initHeader(navView.getHeaderView(0))
+      /*  logout_button.setOnClickListener {
+            val prefs = getSharedPreferences(Constants.APP_PREFS, AppCompatActivity.MODE_PRIVATE)
+            prefs.edit().putString("TOKEN","").apply()
+            val toMain = Intent(this@CarsActivity, MainActivity::class.java)
+            startActivity(toMain)
 
+        }*/
 
     }
 
@@ -100,6 +107,7 @@ class CarsActivity : AppCompatActivity() {
             nav_header_email.text = response.userName
 
         })
+
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {

@@ -9,10 +9,7 @@
             android:icon="@drawable/ic_location"
             android:title="Carte geo" />
 
-        <item
-            android:id="@+id/nav_home"
-            android:icon="@drawable/ic_home"
-            android:title="@string/menu_home" />
+
 
         <item
             android:id="@+id/nav_facture"

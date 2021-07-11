@@ -54,8 +54,12 @@
     <fragment
         android:id="@+id/nav_sub"
         android:name="com.clovertech.autolibdz.ui.subscription.SubscriptionFragment"
-        android:label="fragment_subscription"
-        tools:layout="@layout/fragment_subscription" />
+        android:label="Carte d'abonnement"
+        tools:layout="@layout/fragment_subscription" >
+        <action
+            android:id="@+id/nav_to_tarification"
+            app:destination="@+id/nav_slideshow"/>
+    </fragment>
     <fragment
         android:id="@+id/nav_promo"
         android:name="com.clovertech.autolibdz.ui.promo.PromoFragment"
@@ -89,7 +93,7 @@
     <fragment
         android:id="@+id/nav_main"
         android:name="com.clovertech.autolibdz.ui.HomeFragment"
-        android:label="fragment_home"
+        android:label="Accueil"
         tools:layout="@layout/fragment_home" >
         <action
             android:id="@+id/nav_to_list_cars"

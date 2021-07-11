@@ -1,5 +1,6 @@
 package com.clovertech.autolibdz.ui.profil
 
+import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import android.view.LayoutInflater
@@ -13,6 +14,7 @@ import androidx.navigation.findNavController
 import com.clovertech.autolibdz.R
 import com.clovertech.autolibdz.ViewModel.MainViewModel
 import com.clovertech.autolibdz.ViewModel.MainViewModelFactory
+import com.clovertech.autolibdz.activities.MainActivity
 import com.clovertech.autolibdz.utils.Constants
 import kotlinx.android.synthetic.main.activity_profile.*
 import com.clovertech.autolibdz.repository.Repository
@@ -57,6 +59,13 @@ class ProfilFragment :Fragment() {
         }
         payment_txt.setOnClickListener { v->
             v?.findNavController()?.navigate(R.id.nav_to_payment)
+
+        }
+        logout.setOnClickListener {
+            val prefs = requireActivity().getSharedPreferences(Constants.APP_PREFS, AppCompatActivity.MODE_PRIVATE)
+            prefs.edit().putString("TOKEN","").apply()
+            val toMain = Intent(requireContext(), MainActivity::class.java)
+            startActivity(toMain)
 
         }
     }

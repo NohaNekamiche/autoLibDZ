@@ -271,7 +271,7 @@
             android:orientation="horizontal">
 
             <ImageView
-                android:id="@+id/logout"
+                android:id="@+id/logout_btn"
                 android:layout_width="25dp"
                 android:layout_height="25dp"
                 android:layout_centerVertical="true"
@@ -282,7 +282,7 @@
             </ImageView>
 
             <TextView
-
+                android:id="@+id/logout"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerVertical="true"

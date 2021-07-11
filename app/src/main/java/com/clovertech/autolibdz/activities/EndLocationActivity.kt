@@ -1,7 +1,11 @@
 package com.clovertech.autolibdz.activities
 
 import android.Manifest
+import android.annotation.SuppressLint
+import android.app.AlertDialog
+import android.content.Context
 import android.content.Intent
+import android.content.SharedPreferences
 import android.content.pm.PackageManager
 import android.graphics.PorterDuff
 import android.location.Location
@@ -19,11 +23,17 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
+import androidx.lifecycle.Observer
+import androidx.lifecycle.ViewModelProvider
 import com.clovertech.autolibdz.ui.HomeFragment
 import com.clovertech.autolibdz.R
+import com.clovertech.autolibdz.ViewModel.RentalViewModel
+import com.clovertech.autolibdz.ViewModel.RentalViewModelFactory
 import com.clovertech.autolibdz.activities.auth.fragments.Register1Fragment
 import com.clovertech.autolibdz.activities.auth.fragments.Register2Fragment
 import com.clovertech.autolibdz.activities.auth.fragments.Register3Fragment
+import com.clovertech.autolibdz.repository.RentalRepository
+import com.clovertech.autolibdz.utils.Constants
 import kotlinx.android.synthetic.main.bottom_bar_layout.*
 import kotlinx.android.synthetic.main.end_location.*
 import java.util.ArrayList
@@ -32,13 +42,12 @@ import com.google.android.gms.location.FusedLocationProviderClient
 import com.google.android.gms.location.LocationServices
 
 class EndLocationActivity: AppCompatActivity() {
-    private val layouts : ArrayList<LinearLayout> = ArrayList()
-    private val images : ArrayList<ImageView> = ArrayList()
-    private val fragments : ArrayList<Fragment> = ArrayList()
+
     private var fusedLocationClient: FusedLocationProviderClient? = null
     private var lastLocation: Location? = null
     private var latitudeLabel: String? = null
     private var longitudeLabel: String? = null
+    private lateinit var rentalViewModel: RentalViewModel
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -61,39 +70,41 @@ class EndLocationActivity: AppCompatActivity() {
         longitudeLabel = resources.getString(R.string.longitudeBabel)
         fusedLocationClient = LocationServices.getFusedLocationProviderClient(this)
         countDown()
+        var idcar=0
+        var idborn=0
+        val preferences: SharedPreferences =getSharedPreferences(Constants.APP_PREFS, Context.MODE_PRIVATE)
+        preferences.getInt("idcar", idcar)
+        preferences.getInt("idborn",idborn)
+        endrental(idcar,idborn)
     }
 
-
-
-
-    private fun init() {
-        layouts.add(home_layout as LinearLayout)
-        layouts.add(event_layout as LinearLayout)
-        layouts.add(favorite_layout as LinearLayout)
-        layouts.add(profile_layout as LinearLayout)
-        images.add(home_img as ImageView)
-        images.add(event_img as ImageView)
-        images.add(favorite_img as ImageView)
-        images.add(profile_img as ImageView)
-        fragments.add(HomeFragment())
-        fragments.add(Register1Fragment())
-        fragments.add(Register2Fragment())
-        fragments.add(Register3Fragment())
-    }
-
-    private fun editTint(pos: Int) {
-        images.get(pos).setColorFilter(
-            ContextCompat.getColor(this@EndLocationActivity, R.color.yello),
-            PorterDuff.Mode.SRC_IN
-        )
-        for (i in images.indices) {
-            if (i != pos) {
-                images.get(i).setColorFilter(
-                    ContextCompat.getColor(this@EndLocationActivity, R.color.dark_grey),
-                    PorterDuff.Mode.SRC_IN
-                )
+    private fun endrental(idcar:Int,idBorn:Int){
+        val repository = RentalRepository()
+        val factory = RentalViewModelFactory(repository)
+        rentalViewModel = ViewModelProvider(this,factory)
+        .get(RentalViewModel::class.java)
+        rentalViewModel.endRental(idcar,idBorn)
+        rentalViewModel.msg.observe(this, Observer { response ->
+            if (response.isSuccessful) {
+                alerteMsg()
             }
+        })
+    }
+    @SuppressLint("ResourceType")
+    private fun alerteMsg() {  val builder = AlertDialog.Builder(this)
+        builder.setTitle(R.string.SucdialogTitle)
+        builder.setMessage("Vous etre arrive à la borne destination,Rendre la véhicule")
+        builder.setIconAttribute(R.drawable.ic_baseline_done_outline_24)
+
+        builder.setPositiveButton("Ok"){dialogInterface, which ->
+
+
         }
+        builder.setNeutralButton("Cancel"){dialogInterface , which ->
+        }
+        val alertDialog: AlertDialog = builder.create()
+        alertDialog.setCancelable(false)
+        alertDialog.show()
     }
 
     private fun countDown() {

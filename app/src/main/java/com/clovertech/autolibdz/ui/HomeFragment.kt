@@ -22,6 +22,7 @@ import android.view.ViewGroup
 import android.widget.Toast
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
+import androidx.core.os.bundleOf
 import androidx.core.widget.addTextChangedListener
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
@@ -68,7 +69,7 @@ class HomeFragment : Fragment() , OnMapReadyCallback , GoogleMap.OnMarkerClickLi
     var mLastLocation: Location? = null
     internal var mFusedLocationClient: FusedLocationProviderClient? = null
     lateinit var mLocationRequest: LocationRequest
-
+    var idborn=0
     var bornes: List<Borne>? = null
     lateinit var adapter: BorneAdapter
 
@@ -204,7 +205,7 @@ class HomeFragment : Fragment() , OnMapReadyCallback , GoogleMap.OnMarkerClickLi
 
                 if (borne != null) {
                     park_name.text = borne.city
-
+                    idborn=borne.idBorne
                     // get vehicules borne
                     val vehiculeAdapter = ImageVehiculeAdapter(requireContext())
                     images_container.layoutManager = LinearLayoutManager(requireContext(), LinearLayoutManager.HORIZONTAL, false)
@@ -285,8 +286,9 @@ class HomeFragment : Fragment() , OnMapReadyCallback , GoogleMap.OnMarkerClickLi
             R.id.see_cars_btn -> {
 //                startActivity(Intent(context,FindYourCarActivity::class.java))
 //                startActivity(Intent(context, CarsActivity::class.java))
-
-                findNavController().navigate(R.id.nav_to_list_cars)
+                Log.d("idborn1",idborn.toString())
+                val bundle= bundleOf("idborn" to idborn)
+                findNavController().navigate(R.id.nav_to_list_cars,bundle)
             }
         }
     }

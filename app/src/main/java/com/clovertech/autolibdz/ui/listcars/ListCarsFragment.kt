@@ -6,6 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
@@ -43,17 +44,19 @@ class ListCarsFragment : Fragment() {
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
-
+        val idborn=arguments?.getInt("idborn")
+        Log.d("idborn2",idborn.toString())
         val carsApi=CarsApi()
         val repository=CarsRepository(carsApi)
 
         carsFactory=ViewModelCarsFactory(repository)
         viewModel=ViewModelProvider(this,carsFactory).get(ViewModelCars::class.java)
-
+        val prefs = requireActivity().getSharedPreferences(Constants.APP_PREFS, AppCompatActivity.MODE_PRIVATE)
+        prefs.edit().putInt("idborn", idborn!!).apply()
         /* list_cars.layoutManager = LinearLayoutManager(activity)
          list_cars.adapter = adapter*/
         Log.d("idbornDefault", Constants.idbornDefault.toString())
-        viewModel.getListCarsByStat("available", 15)
+        viewModel.getListCarsByStat("available", idborn!!)
         Log.d("push",viewModel.carsByStat.toString())
         // Toast.makeText(requireContext(),viewModel.carsByStat.toString(),Toast.LENGTH_LONG)
         viewModel.carsByStat.observe(viewLifecycleOwner, Observer { cars->

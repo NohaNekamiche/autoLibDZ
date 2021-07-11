@@ -12,6 +12,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.os.bundleOf
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentActivity
+import androidx.navigation.fragment.findNavController
 import com.clovertech.autolibdz.model.SubscriptionResponse
 import com.clovertech.autolibdz.R
 import com.clovertech.autolibdz.model.SubStateResponse
@@ -78,7 +79,7 @@ class SubscriptionFragment  : Fragment() {
                         val expiry= response.body()?.expirationDate
 
                         sub_card.setOnClickListener {
-
+                            if(response.body()?.solde!=0){
                             val sub = RetrofitInstance.subApi.getSubStateByTenant(idUser)
                             sub.enqueue(object:Callback<SubStateResponse>{
                                 override fun onFailure(
@@ -113,6 +114,14 @@ class SubscriptionFragment  : Fragment() {
                                             val alertDialog: AlertDialog = builder.create()
                                             alertDialog.setCancelable(false)
                                             alertDialog.show()
+                                           // findNavController().navigate(R.id.nav_to_tarification)
+                                        }
+                                        else {
+                                            Log.d("idSub",idSub.toString())
+                                            val confirmSubPayFragment = ConfirmSubPayFragment()
+                                            val args= bundleOf("amount" to amount,"idSub" to idSub)
+                                            confirmSubPayFragment.arguments=args
+                                            fragmentManager?.let { it1 -> confirmSubPayFragment.show(it1, "confirm_pay_fragment") }
                                         }
 
                                     }
@@ -121,13 +130,12 @@ class SubscriptionFragment  : Fragment() {
                                 }
 
 
-                            })
+                            })}
+                            else{
+                                alerteMsg()
+                            }
 
-                            Log.d("idSub",idSub.toString())
-                            val confirmSubPayFragment = ConfirmSubPayFragment()
-                            val args= bundleOf("amount" to amount,"idSub" to idSub)
-                            confirmSubPayFragment.arguments=args
-                            fragmentManager?.let { it1 -> confirmSubPayFragment.show(it1, "confirm_pay_fragment") }
+
                         }
                     }
                 }
@@ -146,6 +154,22 @@ class SubscriptionFragment  : Fragment() {
 
     }
 
+    @SuppressLint("ResourceType")
+    private fun alerteMsg() {  val builder = AlertDialog.Builder(requireContext())
+        builder.setTitle(R.string.SucdialogTitle)
+        builder.setMessage("Recharger votre carte")
+        builder.setIconAttribute(R.drawable.ic_baseline_done_outline_24)
+
+        builder.setPositiveButton("Ok"){dialogInterface, which ->
+
+
+        }
+        builder.setNeutralButton("Cancel"){dialogInterface , which ->
+        }
+        val alertDialog: AlertDialog = builder.create()
+        alertDialog.setCancelable(false)
+        alertDialog.show()
+    }
 
 
 }
