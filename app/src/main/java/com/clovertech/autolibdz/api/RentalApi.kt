@@ -18,9 +18,9 @@ interface RentalApi {
     @PUT("updateVehicleState/{id}")
     suspend fun validateLocation(@Path("id")id:Int):Response<Location>
 
-    @POST("endRental/{id}")
+    @POST("endRental/{idVehicule}/{idBorn}")
     suspend fun endRental(
-            @Path("id")id:Int
+        @Path("idVehicule")idVehicule:Int,@Path("idBorn")idBorn:Int
     ):Response<String>
 
   //  @GET("rental/{id}")

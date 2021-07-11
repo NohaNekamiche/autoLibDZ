@@ -23,14 +23,14 @@ import kotlinx.android.synthetic.main.fragment_card.*
 class CardFragment : Fragment() {
 
 
-    private lateinit var cardViewModel: ViewModelCard
+    private lateinit var cardViewModel: CardViewModel
     private lateinit var viewModel: ViewModelCards
     private lateinit var cardFactory:ViewModelCardsFactory
 
     override fun onCreateView(inflater: LayoutInflater,
         container: ViewGroup?, savedInstanceState: Bundle?): View? {
 
-        cardViewModel = ViewModelProvider(this).get(ViewModelCard::class.java)
+        cardViewModel = ViewModelProvider(this).get(CardViewModel::class.java)
         val root = inflater.inflate(R.layout.fragment_card, container, false)
 
         return root

@@ -11,7 +11,7 @@ import com.clovertech.autolibdz.model.paySubResponse
 import com.clovertech.autolibdz.utils.RetrofitInstance
 import retrofit2.Response
 
-object PaymentRepository {
+class PaymentRepository {
     suspend fun pushCard(paymentMethod: PaymentMethod) : Response<paymentResponse> {
         return RetrofitInstance.cardApi.pushCard(paymentMethod)
     }

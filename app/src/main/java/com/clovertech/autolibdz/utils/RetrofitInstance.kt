@@ -106,17 +106,16 @@ object RetrofitInstance {
     }
     val retrofitReduPrice: PromoApi by lazy {
         Retrofit.Builder()
-            .baseUrl(Constants.Pricing_BASE_URL)
+            .baseUrl(Pricing_BASE_URL)
             .addConverterFactory(GsonConverterFactory.create())
             .build().create(PromoApi::class.java)
     }
     val subApi: PayApi by lazy {
         Retrofit.Builder().baseUrl(Constants.SUB_BASE_URL).addConverterFactory(
             GsonConverterFactory.create()).build().create(PayApi::class.java)
-
     }
     val factureApi: FactureApi by lazy {
-        Retrofit.Builder().baseUrl(Constants.Bill_BASE_URL).addConverterFactory(
+        Retrofit.Builder().baseUrl(Bill_BASE_URL).addConverterFactory(
             GsonConverterFactory.create()).build().create(FactureApi::class.java)
 
     }

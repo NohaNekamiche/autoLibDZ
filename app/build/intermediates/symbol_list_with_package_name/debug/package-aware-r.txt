@@ -1888,6 +1888,7 @@ drawable ic_baseline_search_24
 drawable ic_baseline_speed_24
 drawable ic_baseline_star_24
 drawable ic_baseline_stars_24
+drawable ic_baseline_warning_24
 drawable ic_car
 drawable ic_card
 drawable ic_check

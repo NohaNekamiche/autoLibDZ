@@ -25,9 +25,9 @@ val rentalResponse: MutableLiveData<Response<Rental>> = MutableLiveData()
         }
     }
 
-    fun endRental(id:Int){
+    fun endRental(idvehicule:Int,idborn:Int){
         viewModelScope.launch {
-            val rep:Response<String> = repository.endRental(id)
+            val rep:Response<String> = repository.endRental(idvehicule,idborn)
             msg.value=rep
         }
     }

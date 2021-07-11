@@ -9,6 +9,6 @@ class MainViewModelFactoryCard(private val  repository: PaymentRepository) : Vie
 
 
     override fun <T : ViewModel?> create(modelClass: Class<T>): T {
-        return ViewModelCard() as T
+        return ViewModelCard(repository) as T
     }
 }

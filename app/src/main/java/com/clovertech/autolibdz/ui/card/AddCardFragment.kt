@@ -35,7 +35,7 @@ class AddCardFragment : BottomSheetDialogFragment () {
         close.setOnClickListener{
             this.dismiss()
         }
-        val repository = PaymentRepository
+        val repository = PaymentRepository()
         val viewModelFactory = MainViewModelFactoryCard(repository)
         viewModel = ViewModelProvider(this,viewModelFactory)
                 .get(ViewModelCard::class.java)

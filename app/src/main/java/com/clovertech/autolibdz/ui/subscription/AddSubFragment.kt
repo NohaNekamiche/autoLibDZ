@@ -23,9 +23,9 @@ class AddSubFragment :  BottomSheetDialogFragment() {
     val dropdownlist= arrayOf("Select an option","Mensuel","Par 6 mois","Annuel")
 
     override fun onCreateView(
-            inflater: LayoutInflater,
-            container: ViewGroup?,
-            savedInstanceState: Bundle?
+        inflater: LayoutInflater,
+        container: ViewGroup?,
+        savedInstanceState: Bundle?
     ): View? {
         return inflater.inflate(R.layout.fragment_add_sub,container,false)
 
@@ -37,7 +37,7 @@ class AddSubFragment :  BottomSheetDialogFragment() {
             this.dismiss()
         }
         val adapter =
-                context?.let { ArrayAdapter(it,android.R.layout.simple_spinner_item,dropdownlist) }
+            context?.let { ArrayAdapter(it,android.R.layout.simple_spinner_item,dropdownlist) }
         if (adapter != null) {
             adapter.setDropDownViewResource(android.R.layout.simple_spinner_item)
         }
@@ -48,20 +48,20 @@ class AddSubFragment :  BottomSheetDialogFragment() {
             }
 
             override fun onItemSelected(
-                    parent: AdapterView<*>?,
-                    view: View?,
-                    position: Int,
-                    id: Long
+                parent: AdapterView<*>?,
+                view: View?,
+                position: Int,
+                id: Long
             ) {
                 var idSpinner=spinner.selectedItemPosition
             }
         }
         create_card.setOnClickListener {
 
-            val repository = PaymentRepository
+            val repository = PaymentRepository()
             val viewModelFactory = MainViewModelFactoryCard(repository)
             viewModel = ViewModelProvider(this,viewModelFactory)
-                    .get(ViewModelCard::class.java)
+                .get(ViewModelCard::class.java)
 
             var idSpinner=spinner.selectedItemPosition
             Toast.makeText(context,"you entered $idSpinner",Toast.LENGTH_SHORT).show()
@@ -79,9 +79,9 @@ class AddSubFragment :  BottomSheetDialogFragment() {
                     Log.e("push",response.raw().toString())
 
                     Toast.makeText(
-                            context,
-                            "Card Added sucessfully",
-                            Toast.LENGTH_SHORT
+                        context,
+                        "Card Added sucessfully",
+                        Toast.LENGTH_SHORT
                     ).show()
                 }
                 else {
@@ -94,15 +94,17 @@ class AddSubFragment :  BottomSheetDialogFragment() {
                     Log.e("push",response.raw().toString())
 
                     Toast.makeText(
-                            context,
-                            "echec",
-                            Toast.LENGTH_SHORT
+                        context,
+                        "echec",
+                        Toast.LENGTH_SHORT
                     ).show()
                 }
             })
 
         }
     }
+
+
 
 
 }

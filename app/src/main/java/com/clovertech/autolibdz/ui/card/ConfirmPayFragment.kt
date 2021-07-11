@@ -74,7 +74,7 @@ class ConfirmPayFragment : BottomSheetDialogFragment() {
             this.dismiss()
         }
         last4.setText("xxx xxxx "+arguments?.getString("last4").toString())
-        val repository = PaymentRepository
+        val repository = PaymentRepository()
         val viewModelFactory = MainViewModelFactoryCard(repository)
         viewModel = ViewModelProvider(this,viewModelFactory)
                 .get(ViewModelCard::class.java)
@@ -91,7 +91,7 @@ class ConfirmPayFragment : BottomSheetDialogFragment() {
             viewModel.PayResponse.observe(viewLifecycleOwner, Observer { response ->
                 if (response.isSuccessful) {
 
-                    validateRental()
+                   // validateRental()
                     Log.e("Push", (response.body().toString()))
                     Log.e("Push", response.code().toString())
                     Log.e("Push", response.message())
