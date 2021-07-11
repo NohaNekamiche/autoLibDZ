@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\version_final\\autoLibDZ\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v25\\values-v25.xml",
+            "outputFile": "/home/nabil/projects/temp/autoLibDZ/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v25/values-v25.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\ASUS UX510U\\home\\gradle-6.7.1\\caches\\transforms-2\\files-2.1\\d3ecca2f241900c5020aa273b3ed01e1\\appcompat-1.3.0\\res\\values-v25\\values-v25.xml",
+                    "source": "/home/nabil/.gradle/caches/transforms-2/files-2.1/13384fbdb1f4e731ec0365c34ce13d79/appcompat-1.3.0/res/values-v25/values-v25.xml",
                     "from": {
                         "startLines": "2,3,4,6",
                         "startColumns": "4,4,4,4",

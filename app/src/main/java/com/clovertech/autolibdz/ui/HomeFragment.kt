@@ -27,7 +27,6 @@ import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.clovertech.autolibdz.Adapters.BorneAdapter
-import com.clovertech.autolibdz.Adapters.ImageVehiculeAdapter
 import com.clovertech.autolibdz.R
 import com.clovertech.autolibdz.activities.CarsActivity
 import com.google.android.gms.location.*
@@ -48,11 +47,11 @@ import kotlinx.android.synthetic.main.custom_search_dialog_yello.view.*
 import kotlinx.android.synthetic.main.fragment_home.*
 import kotlinx.android.synthetic.main.fragment_home.view.*
 import com.clovertech.autolibdz.model.Borne
-import com.clovertech.autolibdz.model.Vehicle
 import com.clovertech.autolibdz.utils.RetrofitInstance
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
+import java.lang.Exception
 import java.util.*
 
 class HomeFragment : Fragment() , OnMapReadyCallback , GoogleMap.OnMarkerClickListener , View.OnClickListener {
@@ -88,15 +87,15 @@ class HomeFragment : Fragment() , OnMapReadyCallback , GoogleMap.OnMarkerClickLi
 
                 val geo = Geocoder(requireContext(), Locale.getDefault())
 
-                var addresses = geo.getFromLocation(latLng.latitude, latLng.longitude, 1)
-                if (addresses.isNotEmpty()) {
+                try {
+                    var addresses = geo.getFromLocation(latLng.latitude, latLng.longitude, 1)
+                    if (addresses.isNotEmpty()) {
 
-                    ville.text = addresses[0].subAdminArea
-                    region.text = addresses[0].locality
+                        ville.text = addresses[0].subAdminArea
+                        region.text = addresses[0].locality
 //                    Toast.makeText(requireContext(), "Address:- " + addresses[0].featureName + addresses[0].adminArea + addresses[0].locality, Toast.LENGTH_LONG).show()
-                }
+                    }
 
-                if (bornes != null) {
                     val borne = closestBorne(location)
                     adapter.selectedBorne.value = borne
                     addresses = geo.getFromLocation(borne.latitude.toDouble(),
@@ -105,8 +104,9 @@ class HomeFragment : Fragment() , OnMapReadyCallback , GoogleMap.OnMarkerClickLi
                         borne_name.text = borne.city
                         borne_address.text = addresses[0].locality
                     }
+                } catch(e: Exception) {
+                    Toast.makeText(requireContext(), "connection is slow! ", Toast.LENGTH_SHORT).show()
                 }
-
 
             }
         }
@@ -296,24 +296,6 @@ class HomeFragment : Fragment() , OnMapReadyCallback , GoogleMap.OnMarkerClickLi
         mLocationRequest.fastestInterval = 120000
         mLocationRequest.priority = LocationRequest.PRIORITY_BALANCED_POWER_ACCURACY
 
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
-            if (ContextCompat.checkSelfPermission(
-                    requireContext(),
-                    Manifest.permission.ACCESS_FINE_LOCATION
-                ) == PackageManager.PERMISSION_GRANTED
-            ) {
-                //Location Permission already granted
-                mFusedLocationClient?.requestLocationUpdates(mLocationRequest, mLocationCallback, Looper.myLooper()!!)
-                googleMap.isMyLocationEnabled = true
-            } else {
-                //Request Location Permission
-                checkLocationPermission()
-            }
-        } else {
-            mFusedLocationClient?.requestLocationUpdates(mLocationRequest, mLocationCallback, Looper.myLooper()!!)
-            googleMap.isMyLocationEnabled = true
-        }
-
 
         val call = RetrofitInstance.borneApi.getBornes()
         call.enqueue(object: Callback<List<Borne>> {
@@ -331,6 +313,7 @@ class HomeFragment : Fragment() , OnMapReadyCallback , GoogleMap.OnMarkerClickLi
                     if (borne != null) {
                         bornes = borne
                         adapter.setBornes(bornes!!)
+
                         bornes?.forEach {
                             val borneCoordinates = LatLng(it.latitude.toString().toDouble(), it.longitude.toString().toDouble())
                             googleMap.addMarker(
@@ -338,6 +321,24 @@ class HomeFragment : Fragment() , OnMapReadyCallback , GoogleMap.OnMarkerClickLi
                                             .position(borneCoordinates)
                                             .title("Wilaya: ${it.city}")
                             )
+                        }
+
+                        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+                            if (ContextCompat.checkSelfPermission(
+                                    requireContext(),
+                                    Manifest.permission.ACCESS_FINE_LOCATION
+                                ) == PackageManager.PERMISSION_GRANTED
+                            ) {
+                                //Location Permission already granted
+                                mFusedLocationClient?.requestLocationUpdates(mLocationRequest, mLocationCallback, Looper.myLooper()!!)
+                                googleMap.isMyLocationEnabled = true
+                            } else {
+                                //Request Location Permission
+                                checkLocationPermission()
+                            }
+                        } else {
+                            mFusedLocationClient?.requestLocationUpdates(mLocationRequest, mLocationCallback, Looper.myLooper()!!)
+                            googleMap.isMyLocationEnabled = true
                         }
                     }
                 } else {

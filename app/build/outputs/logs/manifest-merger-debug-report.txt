@@ -1,445 +1,528 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\version_final\autoLibDZ\app\src\main\AndroidManifest.xml:2:1-54:12
-INJECTED from C:\version_final\autoLibDZ\app\src\main\AndroidManifest.xml:2:1-54:12
-INJECTED from C:\version_final\autoLibDZ\app\src\main\AndroidManifest.xml:2:1-54:12
-INJECTED from C:\version_final\autoLibDZ\app\src\main\AndroidManifest.xml:2:1-54:12
-MERGED from [androidx.databinding:databinding-adapters:4.1.3] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\7f46fafb76ad45dcd7b7e2dfb8b1da9a\databinding-adapters-4.1.3\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.databinding:databinding-runtime:4.1.3] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\7b5fee3c6e7749307d9cdf6682495c0a\databinding-runtime-4.1.3\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.5] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\b5f458d0a6cb0ffe8234f8af04d9b969\navigation-fragment-ktx-2.3.5\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.fragment:fragment-ktx:1.2.4] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\85a72c95e2898476f90b47f72973f2dc\jetified-fragment-ktx-1.2.4\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.navigation:navigation-ui-ktx:2.3.5] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\5fc4c0781ceeb84d1f4adccce7319977\navigation-ui-ktx-2.3.5\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.5] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\3ebcf4505fe5f2fd04e403074db10430\navigation-runtime-ktx-2.3.5\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.navigation:navigation-common-ktx:2.3.5] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\0e12f0cfba56588bff64dc63ccdb01ed\navigation-common-ktx-2.3.5\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.activity:activity-ktx:1.1.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\5e0ff57d53345c64b40f2188428b5cc6\jetified-activity-ktx-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.core:core-ktx:1.6.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\8d67fceabd8524532c3f9a8bcc777b70\jetified-core-ktx-1.6.0\AndroidManifest.xml:2:1-9:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.3.1] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\d0397ad939c35cb83f2294682383c719\jetified-lifecycle-livedata-ktx-2.3.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\8eefa461f103d9c7bd2d1150cf5d4b10\jetified-lifecycle-viewmodel-ktx-2.3.1\AndroidManifest.xml:17:1-24:12
-MERGED from [org.jetbrains.anko:anko-common:0.10.8] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\525cf820f6201079e190831f15e88c43\jetified-anko-common-0.10.8\AndroidManifest.xml:2:1-13:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.1] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\be47f31f47d5deec2e3b682ecd8aab08\jetified-lifecycle-livedata-core-ktx-2.3.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\44ed810e320bb05ec1dbaef58a33727f\jetified-lifecycle-runtime-ktx-2.2.0\AndroidManifest.xml:17:1-24:12
-MERGED from [org.jetbrains.anko:anko-commons:0.10.8] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\9b2108119ddcfba42ca8fb181a5d48ad\jetified-anko-commons-0.10.8\AndroidManifest.xml:2:1-13:12
-MERGED from [com.airbnb.android:lottie:3.7.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\9910e3c8cd25a578529d92311db7d925\jetified-lottie-3.7.0\AndroidManifest.xml:2:1-11:12
-MERGED from [org.jetbrains.anko:commons-base:0.10.8] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\8d84d26e9e2f4afe14c0d3ce8da4097d\jetified-commons-base-0.10.8\AndroidManifest.xml:2:1-11:12
-MERGED from [androidx.navigation:navigation-ui:2.3.5] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\227eda703cf0dcc15779b2e6f5d214e5\navigation-ui-2.3.5\AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.material:material:1.4.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\268c09e58ab2fdf942d15d2a1cfc9831\material-1.4.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\72130ebd2c011aad491b6fbdb67949f4\constraintlayout-2.0.4\AndroidManifest.xml:2:1-11:12
-MERGED from [androidx.appcompat:appcompat:1.3.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\d3ecca2f241900c5020aa273b3ed01e1\appcompat-1.3.0\AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.gms:play-services-maps:17.0.1] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\5657dadc132c9e03eb989af690b67a25\jetified-play-services-maps-17.0.1\AndroidManifest.xml:17:1-44:12
-MERGED from [com.google.android.gms:play-services-location:18.0.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\10ea66837804517522b904daa018234e\jetified-play-services-location-18.0.0\AndroidManifest.xml:2:1-9:12
-MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\c1d1c15cf7e3c4ffd3077c1e459d2ccb\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\9879a68dc90d1b780907f58813f7cdca\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\56b86dbfa7e26cd3232b6aaf1fad578a\jetified-glide-4.12.0\AndroidManifest.xml:2:1-12:12
-MERGED from [com.android.volley:volley:1.2.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\7f46cecfe497089ab65964724af6d459\jetified-volley-1.2.0\AndroidManifest.xml:2:1-7:12
-MERGED from [com.skyfishjy.ripplebackground:library:1.0.1] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\ed5d664fd4d4e4b3c45f017d3bbe1265\jetified-library-1.0.1\AndroidManifest.xml:2:1-13:12
-MERGED from [androidx.databinding:viewbinding:4.1.3] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\66d1574dac2d6241342e19c312cab98f\jetified-viewbinding-4.1.3\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\08dc7cbc2068a20e772491bfb2bab495\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.navigation:navigation-fragment:2.3.5] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\8590003727dd3fd608f172a36076cb8d\navigation-fragment-2.3.5\AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.gms:play-services-base:17.5.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\14b1faa48bb5bf5b6a196b8237ea9915\jetified-play-services-base-17.5.0\AndroidManifest.xml:17:1-29:12
-MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\ba907b4bfffd46384282b1deb2d08746\jetified-play-services-places-placereport-17.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.gms:play-services-tasks:17.2.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\42ca789807af5760d1fa506b9e57705b\jetified-play-services-tasks-17.2.0\AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-basement:17.5.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\b9841504fae6f64784cf91693aba9c74\jetified-play-services-basement-17.5.0\AndroidManifest.xml:17:1-28:12
-MERGED from [androidx.fragment:fragment:1.3.4] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\d75ec519209761ec310c161736e63ef5\fragment-1.3.4\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.navigation:navigation-runtime:2.3.5] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\c0ca67130910bd7c02fa86fdb070a8fa\navigation-runtime-2.3.5\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.activity:activity:1.2.3] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\45e43bc49e7e2b4a9c3c40adcc355ca2\jetified-activity-1.2.3\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.appcompat:appcompat-resources:1.3.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\1723f391b959a226c857ffdff9349d29\jetified-appcompat-resources-1.3.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\f55ef733d3d27794390d7985c0f65e5e\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\326ae6449b35a222df2e92281e429362\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\027e4da801ed43058f7f41f475a6bf77\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\3465153d35760e9c04d7ea3a53110d21\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\1589cd5bbe9cbb627a3564cdd413b71a\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.media:media:1.0.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\5ab6b5d37cf154405ab45703e04542dc\media-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\73846e6d9a05d6c6263a8d3b63f4c212\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\c4e48db3fde462518219bca5bb10ac3c\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\49ce83a26c58541d5e0819f3d44f0360\loader-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\09cfde4d92ef2136970545201846bc0e\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\244119a153bea340c76c397932d7648b\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\2480fc9f7cada0540b8e98f7c935ec92\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.customview:customview:1.1.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\a7cd92c51c0a38ee1611046a2812463b\customview-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.transition:transition:1.3.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\be65e36bfb941a75c469ebf4214607f3\transition-1.3.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\bf82a8ea0c27a0856baf8a4c9d73a4b5\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\6e496918dc472ab36ea079d4d545242a\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.navigation:navigation-common:2.3.5] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\965da232ecd9fee43118f79e70766136\navigation-common-2.3.5\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.core:core:1.6.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\73f7892e616b9e29c1878b41583edc2b\core-1.6.0\AndroidManifest.xml:17:1-26:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\55ab6991b904c478f067eef03c49028b\lifecycle-runtime-2.3.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\dbade14a33fd99929764039931c265c9\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\0a666033804ff03817fffacfe156071a\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\ab68914ebaaa70b6f716015c6a677b49\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\154160c45a62d4486d15e83c53494598\jetified-savedstate-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\7ee51daeae2bdf7986961d9cad2b8429\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:17:1-24:12
-MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\3a1c9756a1035bb254cfa1985366a193\jetified-gifdecoder-4.12.0\AndroidManifest.xml:2:1-11:12
-MERGED from [androidx.exifinterface:exifinterface:1.2.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\92826f468cf5cfb93a5f92474363aeec\exifinterface-1.2.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.3.1] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\415948f945b51989885c91e3fb5a8ca6\lifecycle-livedata-2.3.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\8e11c27ffc04a75b77f69255f9885919\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\8ffc2cd3d316263f3f70c5a6bd0cb28d\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\7d8f55df3a3dd4cf061007d26b70cb9f\jetified-tracing-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\6902f1542b8ee5d6447b6c8d0ec3c7be\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\106f9c6085e0bb6709c9fdde321d63bc\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.print:print:1.0.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\aceead37f8ac9ecc48d703932f562d92\print-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\eb3321cc0be47fa95ab614430d83509e\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\bb070520ad947a3ec864714d5e51434c\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\version_final\autoLibDZ\app\src\main\AndroidManifest.xml:2:1-54:12
-INJECTED from C:\version_final\autoLibDZ\app\src\main\AndroidManifest.xml:2:1-54:12
-INJECTED from C:\version_final\autoLibDZ\app\src\main\AndroidManifest.xml:2:1-54:12
+ADDED from /home/nabil/projects/temp/autoLibDZ/app/src/main/AndroidManifest.xml:2:1-54:12
+INJECTED from /home/nabil/projects/temp/autoLibDZ/app/src/main/AndroidManifest.xml:2:1-54:12
+INJECTED from /home/nabil/projects/temp/autoLibDZ/app/src/main/AndroidManifest.xml:2:1-54:12
+INJECTED from /home/nabil/projects/temp/autoLibDZ/app/src/main/AndroidManifest.xml:2:1-54:12
+MERGED from [androidx.databinding:databinding-adapters:4.1.3] /home/nabil/.gradle/caches/transforms-2/files-2.1/470428979c9f471423f7f191cdb9bc5c/databinding-adapters-4.1.3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.databinding:databinding-runtime:4.1.3] /home/nabil/.gradle/caches/transforms-2/files-2.1/1e1eebd0795858ea8a71c22048c6e9c0/databinding-runtime-4.1.3/AndroidManifest.xml:17:1-24:12
+MERGED from [com.airbnb.android:lottie:3.7.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/3dc4e6760f155d7e28c95d1253f53e86/jetified-lottie-3.7.0/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.5] /home/nabil/.gradle/caches/transforms-2/files-2.1/50267a48e3110ef94ff3778a5c545d92/navigation-fragment-ktx-2.3.5/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment-ktx:1.2.4] /home/nabil/.gradle/caches/transforms-2/files-2.1/4847b5ac4ecd4e20a5be41a2c8d59614/jetified-fragment-ktx-1.2.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.5] /home/nabil/.gradle/caches/transforms-2/files-2.1/d2eb199cbdfee1ea5384a99cfb8f9124/navigation-ui-ktx-2.3.5/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.5] /home/nabil/.gradle/caches/transforms-2/files-2.1/498af8c98f07cdce9bac51fa0418f88d/navigation-runtime-ktx-2.3.5/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.5] /home/nabil/.gradle/caches/transforms-2/files-2.1/47c66ec975f0971aed90c16a7789e260/navigation-common-ktx-2.3.5/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity-ktx:1.1.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/3e9cf8edbc81a616beba8975e09bf586/jetified-activity-ktx-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.7.0-alpha01] /home/nabil/.gradle/caches/transforms-2/files-2.1/46b8ada583326bde56d7e6d1c7d32073/jetified-core-ktx-1.7.0-alpha01/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.navigation:navigation-ui:2.3.5] /home/nabil/.gradle/caches/transforms-2/files-2.1/63d834d483a496bcf5a1eff35919265c/navigation-ui-2.3.5/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.4.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/43f5dbb407f57f1b486390bdbaea29b7/material-1.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /home/nabil/.gradle/caches/transforms-2/files-2.1/27134646f0ad488b675a989cd1661eb0/constraintlayout-2.0.4/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.3.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/13384fbdb1f4e731ec0365c34ce13d79/appcompat-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.3.1] /home/nabil/.gradle/caches/transforms-2/files-2.1/bfe8d61ebca950b705d2e67ac4c49b97/jetified-lifecycle-livedata-ktx-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1] /home/nabil/.gradle/caches/transforms-2/files-2.1/664e060d8b4ec5dca3815a2f064cb1fb/jetified-lifecycle-viewmodel-ktx-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-maps:17.0.1] /home/nabil/.gradle/caches/transforms-2/files-2.1/f61384468b3dbbd7123c8667222bccba/jetified-play-services-maps-17.0.1/AndroidManifest.xml:17:1-44:12
+MERGED from [com.google.android.gms:play-services-location:18.0.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/639c5fddabb62bf17deca2ff3df20f83/jetified-play-services-location-18.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/4ae64f18cc69e71a0353f7986ad3ff3a/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/dd66c65665e67d42d0b173681bd02b5a/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/1cce13088e3c05f9822101ad467a1c38/jetified-lifecycle-runtime-ktx-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-storage-ktx:20.0.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/2154d9bcd78cc9340c1f66d7e1e550b9/jetified-firebase-storage-ktx-20.0.0/AndroidManifest.xml:2:1-21:12
+MERGED from [com.github.bumptech.glide:glide:4.12.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/1f4fbf47ed28ee207720d4d618763914/jetified-glide-4.12.0/AndroidManifest.xml:2:1-12:12
+MERGED from [org.jetbrains.anko:anko-common:0.10.8] /home/nabil/.gradle/caches/transforms-2/files-2.1/843ac17f77ceccfbc8b96d90efdb1668/jetified-anko-common-0.10.8/AndroidManifest.xml:2:1-13:12
+MERGED from [com.android.volley:volley:1.2.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/a69b726fad0d5341420193d3a4394776/jetified-volley-1.2.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.skyfishjy.ripplebackground:library:1.0.1] /home/nabil/.gradle/caches/transforms-2/files-2.1/1f330b9fc8d0ea3e9736aa868657c062/jetified-library-1.0.1/AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.firebase:firebase-common-ktx:20.0.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/bacb4074df5d3ab602315dad9d2eb950/jetified-firebase-common-ktx-20.0.0/AndroidManifest.xml:2:1-21:12
+MERGED from [com.google.firebase:firebase-storage:20.0.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/aeb855d6b4c870e14c7c8378b4d3914f/jetified-firebase-storage-20.0.0/AndroidManifest.xml:15:1-39:12
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta01] /home/nabil/.gradle/caches/transforms-2/files-2.1/09f11732fc3e1c975852e555fa03ec1c/jetified-firebase-appcheck-interop-16.0.0-beta01/AndroidManifest.xml:15:1-26:12
+MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/a80f7e800350e567d4bd191ae7da5d56/jetified-firebase-auth-interop-18.0.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-common:20.0.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/13af2d76a080fe30ca69802e5da8cab8/jetified-firebase-common-20.0.0/AndroidManifest.xml:15:1-40:12
+MERGED from [androidx.databinding:viewbinding:4.1.3] /home/nabil/.gradle/caches/transforms-2/files-2.1/4c594be7e626523ddd4200ac6e4f39e8/jetified-viewbinding-4.1.3/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/510724a6a14c9c6e33a0a9f5e41b0a89/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-fragment:2.3.5] /home/nabil/.gradle/caches/transforms-2/files-2.1/0ad14322ae0e7d5e804bff349eede258/navigation-fragment-2.3.5/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-base:17.5.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/276d8a70bdaf7275f1ba97e24988ad1b/jetified-play-services-base-17.5.0/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/ac91d80d4c84924d8e3e9e7539a4224e/jetified-play-services-places-placereport-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:17.2.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/d33cd5f8e81c083c208c0494517ff113/jetified-play-services-tasks-17.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:17.5.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/80dbfffb0b8f41171977e845c58eaeea/jetified-play-services-basement-17.5.0/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.3.4] /home/nabil/.gradle/caches/transforms-2/files-2.1/16bf342ead34ef8d015ef17179e3bd98/fragment-1.3.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime:2.3.5] /home/nabil/.gradle/caches/transforms-2/files-2.1/7ac525878848f150aec5fd6f6d6fdadb/navigation-runtime-2.3.5/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.2.3] /home/nabil/.gradle/caches/transforms-2/files-2.1/bfeeed78e35d1c2c7fe87aa6513fbdc4/jetified-activity-1.2.3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/29bec6662c44c2509f9fe408f6828e45/jetified-appcompat-resources-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/fa34f1069f2371f7b099e7c9e327c034/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/30ce0febc3c8949193ae6a82f350be53/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/4cd4192a1291439c5da10709e2e6c831/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/825581edef1e5d5db0b942cddf0e8e0c/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/be1dea5ee1f0a746b9e769e27d0c15f7/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.0.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/47d23956bc15103d4375d1467a180237/media-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/24e117effd61556c02d4348b6866e67f/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/d0152544e938774bfb8a54b151dd79fe/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/2a97a2372eb753f3c6f32ac0f187da6c/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/57b2fb6bf837c4bf9d8f15fd914e6ec7/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/nabil/.gradle/caches/transforms-2/files-2.1/acd78f27385f6e2df66e35460e899773/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/51d837e95bffd85c9c3ec846710ff1e2/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/d9cf873e5a35ce7664b50af6dc892f54/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.3.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/2c09cb60284a339297e0ea78e66f962e/transition-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/374730042b9751f63e1772b5f974b0f7/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/8f489603cfc5402de7b27fc666a1544c/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-common:2.3.5] /home/nabil/.gradle/caches/transforms-2/files-2.1/e83cb44424281dcb525645ba2472ea0a/navigation-common-2.3.5/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.7.0-alpha01] /home/nabil/.gradle/caches/transforms-2/files-2.1/470cd1f8fbd9e0061e9734ab02d3ec47/core-1.7.0-alpha01/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /home/nabil/.gradle/caches/transforms-2/files-2.1/d149e89921ee1e9cb0ea3e25907de376/lifecycle-runtime-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/nabil/.gradle/caches/transforms-2/files-2.1/298ac33f6fae988db5ac7bd88b1bfb59/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.1] /home/nabil/.gradle/caches/transforms-2/files-2.1/d1ec0ac28caa7265b604a129086f348e/jetified-lifecycle-livedata-core-ktx-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [org.jetbrains.anko:anko-commons:0.10.8] /home/nabil/.gradle/caches/transforms-2/files-2.1/5a1852bbff40eea3388769419bc39366/jetified-anko-commons-0.10.8/AndroidManifest.xml:2:1-13:12
+MERGED from [org.jetbrains.anko:commons-base:0.10.8] /home/nabil/.gradle/caches/transforms-2/files-2.1/550d70c7fbbe5531b0eff449458fccf3/jetified-commons-base-0.10.8/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/86544cd5b6f76796ade884e0c4cfaa13/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /home/nabil/.gradle/caches/transforms-2/files-2.1/fbe68c6ea9319904580965e291a15846/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/249962d2f8fb28f531802bcef5acfc44/jetified-savedstate-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /home/nabil/.gradle/caches/transforms-2/files-2.1/b9e49eba49338ee7143c93b9357ac4df/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-components:17.0.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/fc977968b810087a0306ce04cbe67e23/jetified-firebase-components-17.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/6b5ede7b05fc238d038f82011dd26661/jetified-gifdecoder-4.12.0/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/a4ab5594de8feba86dd9c0ee789512ef/exifinterface-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.3.1] /home/nabil/.gradle/caches/transforms-2/files-2.1/0abcc80ae5701c784d1551c38f45ee62/lifecycle-livedata-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /home/nabil/.gradle/caches/transforms-2/files-2.1/18c9e83d4f05b0a132eb846e418d00f9/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/05f49c9969019f3b892c22985ad7eebf/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.tracing:tracing:1.0.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/c418b56d35e4044d7ce834572af6a23a/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/5f6f3d9ffe7beadabbf2ae9b87cfdcf3/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/767fdd786e01af8cdbad2894cf06d1eb/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/41bca5a30e875e22eac99a8c8131122b/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/da0a69187d83518f47a8c80edd545216/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/e3d288c816f4a667e27c5f26473fe732/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /home/nabil/projects/temp/autoLibDZ/app/src/main/AndroidManifest.xml:2:1-54:12
+INJECTED from /home/nabil/projects/temp/autoLibDZ/app/src/main/AndroidManifest.xml:2:1-54:12
+INJECTED from /home/nabil/projects/temp/autoLibDZ/app/src/main/AndroidManifest.xml:2:1-54:12
 	package
-		ADDED from C:\version_final\autoLibDZ\app\src\main\AndroidManifest.xml:3:5-39
-		INJECTED from C:\version_final\autoLibDZ\app\src\main\AndroidManifest.xml
-		INJECTED from C:\version_final\autoLibDZ\app\src\main\AndroidManifest.xml
+		ADDED from /home/nabil/projects/temp/autoLibDZ/app/src/main/AndroidManifest.xml:3:5-39
+		INJECTED from /home/nabil/projects/temp/autoLibDZ/app/src/main/AndroidManifest.xml
+		INJECTED from /home/nabil/projects/temp/autoLibDZ/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\version_final\autoLibDZ\app\src\main\AndroidManifest.xml
-		ADDED from C:\version_final\autoLibDZ\app\src\main\AndroidManifest.xml:2:1-54:12
-		INJECTED from C:\version_final\autoLibDZ\app\src\main\AndroidManifest.xml
+		INJECTED from /home/nabil/projects/temp/autoLibDZ/app/src/main/AndroidManifest.xml
+		ADDED from /home/nabil/projects/temp/autoLibDZ/app/src/main/AndroidManifest.xml:2:1-54:12
+		INJECTED from /home/nabil/projects/temp/autoLibDZ/app/src/main/AndroidManifest.xml
 	android:versionCode
-		INJECTED from C:\version_final\autoLibDZ\app\src\main\AndroidManifest.xml
-		ADDED from C:\version_final\autoLibDZ\app\src\main\AndroidManifest.xml:2:1-54:12
-		INJECTED from C:\version_final\autoLibDZ\app\src\main\AndroidManifest.xml
+		INJECTED from /home/nabil/projects/temp/autoLibDZ/app/src/main/AndroidManifest.xml
+		ADDED from /home/nabil/projects/temp/autoLibDZ/app/src/main/AndroidManifest.xml:2:1-54:12
+		INJECTED from /home/nabil/projects/temp/autoLibDZ/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\version_final\autoLibDZ\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from /home/nabil/projects/temp/autoLibDZ/app/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from C:\version_final\autoLibDZ\app\src\main\AndroidManifest.xml:4:5-81
+ADDED from /home/nabil/projects/temp/autoLibDZ/app/src/main/AndroidManifest.xml:4:5-81
 	android:name
-		ADDED from C:\version_final\autoLibDZ\app\src\main\AndroidManifest.xml:4:22-78
+		ADDED from /home/nabil/projects/temp/autoLibDZ/app/src/main/AndroidManifest.xml:4:22-78
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from C:\version_final\autoLibDZ\app\src\main\AndroidManifest.xml:5:5-79
+ADDED from /home/nabil/projects/temp/autoLibDZ/app/src/main/AndroidManifest.xml:5:5-79
 	android:name
-		ADDED from C:\version_final\autoLibDZ\app\src\main\AndroidManifest.xml:5:22-76
+		ADDED from /home/nabil/projects/temp/autoLibDZ/app/src/main/AndroidManifest.xml:5:22-76
 uses-permission#android.permission.CAMERA
-ADDED from C:\version_final\autoLibDZ\app\src\main\AndroidManifest.xml:6:5-9:42
+ADDED from /home/nabil/projects/temp/autoLibDZ/app/src/main/AndroidManifest.xml:6:5-9:42
 	android:requiredFeature
-		ADDED from C:\version_final\autoLibDZ\app\src\main\AndroidManifest.xml:9:9-39
+		ADDED from /home/nabil/projects/temp/autoLibDZ/app/src/main/AndroidManifest.xml:9:9-39
 	android:required
-		ADDED from C:\version_final\autoLibDZ\app\src\main\AndroidManifest.xml:8:9-32
+		ADDED from /home/nabil/projects/temp/autoLibDZ/app/src/main/AndroidManifest.xml:8:9-32
 	android:name
-		ADDED from C:\version_final\autoLibDZ\app\src\main\AndroidManifest.xml:7:9-49
+		ADDED from /home/nabil/projects/temp/autoLibDZ/app/src/main/AndroidManifest.xml:7:9-49
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from C:\version_final\autoLibDZ\app\src\main\AndroidManifest.xml:10:5-81
+ADDED from /home/nabil/projects/temp/autoLibDZ/app/src/main/AndroidManifest.xml:10:5-81
 	android:name
-		ADDED from C:\version_final\autoLibDZ\app\src\main\AndroidManifest.xml:10:22-78
+		ADDED from /home/nabil/projects/temp/autoLibDZ/app/src/main/AndroidManifest.xml:10:22-78
 uses-permission#android.permission.BLUETOOTH
-ADDED from C:\version_final\autoLibDZ\app\src\main\AndroidManifest.xml:12:5-68
+ADDED from /home/nabil/projects/temp/autoLibDZ/app/src/main/AndroidManifest.xml:12:5-68
 	android:name
-		ADDED from C:\version_final\autoLibDZ\app\src\main\AndroidManifest.xml:12:22-65
+		ADDED from /home/nabil/projects/temp/autoLibDZ/app/src/main/AndroidManifest.xml:12:22-65
 uses-permission#android.permission.BLUETOOTH_ADMIN
-ADDED from C:\version_final\autoLibDZ\app\src\main\AndroidManifest.xml:13:5-74
+ADDED from /home/nabil/projects/temp/autoLibDZ/app/src/main/AndroidManifest.xml:13:5-74
 	android:name
-		ADDED from C:\version_final\autoLibDZ\app\src\main\AndroidManifest.xml:13:22-71
+		ADDED from /home/nabil/projects/temp/autoLibDZ/app/src/main/AndroidManifest.xml:13:22-71
 uses-permission#android.permission.INTERNET
-ADDED from C:\version_final\autoLibDZ\app\src\main\AndroidManifest.xml:15:5-67
-MERGED from [com.google.android.gms:play-services-maps:17.0.1] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\5657dadc132c9e03eb989af690b67a25\jetified-play-services-maps-17.0.1\AndroidManifest.xml:24:5-67
-MERGED from [com.google.android.gms:play-services-maps:17.0.1] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\5657dadc132c9e03eb989af690b67a25\jetified-play-services-maps-17.0.1\AndroidManifest.xml:24:5-67
+ADDED from /home/nabil/projects/temp/autoLibDZ/app/src/main/AndroidManifest.xml:15:5-67
+MERGED from [com.google.android.gms:play-services-maps:17.0.1] /home/nabil/.gradle/caches/transforms-2/files-2.1/f61384468b3dbbd7123c8667222bccba/jetified-play-services-maps-17.0.1/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:17.0.1] /home/nabil/.gradle/caches/transforms-2/files-2.1/f61384468b3dbbd7123c8667222bccba/jetified-play-services-maps-17.0.1/AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-storage:20.0.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/aeb855d6b4c870e14c7c8378b4d3914f/jetified-firebase-storage-20.0.0/AndroidManifest.xml:27:5-67
+MERGED from [com.google.firebase:firebase-storage:20.0.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/aeb855d6b4c870e14c7c8378b4d3914f/jetified-firebase-storage-20.0.0/AndroidManifest.xml:27:5-67
 	android:name
-		ADDED from C:\version_final\autoLibDZ\app\src\main\AndroidManifest.xml:15:22-64
+		ADDED from /home/nabil/projects/temp/autoLibDZ/app/src/main/AndroidManifest.xml:15:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from C:\version_final\autoLibDZ\app\src\main\AndroidManifest.xml:17:5-79
-MERGED from [com.google.android.gms:play-services-maps:17.0.1] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\5657dadc132c9e03eb989af690b67a25\jetified-play-services-maps-17.0.1\AndroidManifest.xml:23:5-79
-MERGED from [com.google.android.gms:play-services-maps:17.0.1] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\5657dadc132c9e03eb989af690b67a25\jetified-play-services-maps-17.0.1\AndroidManifest.xml:23:5-79
+ADDED from /home/nabil/projects/temp/autoLibDZ/app/src/main/AndroidManifest.xml:17:5-79
+MERGED from [com.google.android.gms:play-services-maps:17.0.1] /home/nabil/.gradle/caches/transforms-2/files-2.1/f61384468b3dbbd7123c8667222bccba/jetified-play-services-maps-17.0.1/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:17.0.1] /home/nabil/.gradle/caches/transforms-2/files-2.1/f61384468b3dbbd7123c8667222bccba/jetified-play-services-maps-17.0.1/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-storage:20.0.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/aeb855d6b4c870e14c7c8378b4d3914f/jetified-firebase-storage-20.0.0/AndroidManifest.xml:26:5-79
+MERGED from [com.google.firebase:firebase-storage:20.0.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/aeb855d6b4c870e14c7c8378b4d3914f/jetified-firebase-storage-20.0.0/AndroidManifest.xml:26:5-79
 	android:name
-		ADDED from C:\version_final\autoLibDZ\app\src\main\AndroidManifest.xml:17:22-76
+		ADDED from /home/nabil/projects/temp/autoLibDZ/app/src/main/AndroidManifest.xml:17:22-76
 application
-ADDED from C:\version_final\autoLibDZ\app\src\main\AndroidManifest.xml:19:5-52:19
-MERGED from [org.jetbrains.anko:anko-common:0.10.8] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\525cf820f6201079e190831f15e88c43\jetified-anko-common-0.10.8\AndroidManifest.xml:11:5-20
-MERGED from [org.jetbrains.anko:anko-common:0.10.8] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\525cf820f6201079e190831f15e88c43\jetified-anko-common-0.10.8\AndroidManifest.xml:11:5-20
-MERGED from [org.jetbrains.anko:anko-commons:0.10.8] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\9b2108119ddcfba42ca8fb181a5d48ad\jetified-anko-commons-0.10.8\AndroidManifest.xml:11:5-20
-MERGED from [org.jetbrains.anko:anko-commons:0.10.8] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\9b2108119ddcfba42ca8fb181a5d48ad\jetified-anko-commons-0.10.8\AndroidManifest.xml:11:5-20
-MERGED from [com.airbnb.android:lottie:3.7.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\9910e3c8cd25a578529d92311db7d925\jetified-lottie-3.7.0\AndroidManifest.xml:9:5-20
-MERGED from [com.airbnb.android:lottie:3.7.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\9910e3c8cd25a578529d92311db7d925\jetified-lottie-3.7.0\AndroidManifest.xml:9:5-20
-MERGED from [com.google.android.material:material:1.4.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\268c09e58ab2fdf942d15d2a1cfc9831\material-1.4.0\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.material:material:1.4.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\268c09e58ab2fdf942d15d2a1cfc9831\material-1.4.0\AndroidManifest.xml:22:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\72130ebd2c011aad491b6fbdb67949f4\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\72130ebd2c011aad491b6fbdb67949f4\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
-MERGED from [com.google.android.gms:play-services-maps:17.0.1] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\5657dadc132c9e03eb989af690b67a25\jetified-play-services-maps-17.0.1\AndroidManifest.xml:36:5-42:19
-MERGED from [com.google.android.gms:play-services-maps:17.0.1] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\5657dadc132c9e03eb989af690b67a25\jetified-play-services-maps-17.0.1\AndroidManifest.xml:36:5-42:19
-MERGED from [com.google.android.gms:play-services-location:18.0.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\10ea66837804517522b904daa018234e\jetified-play-services-location-18.0.0\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-location:18.0.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\10ea66837804517522b904daa018234e\jetified-play-services-location-18.0.0\AndroidManifest.xml:7:5-20
-MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\56b86dbfa7e26cd3232b6aaf1fad578a\jetified-glide-4.12.0\AndroidManifest.xml:10:5-20
-MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\56b86dbfa7e26cd3232b6aaf1fad578a\jetified-glide-4.12.0\AndroidManifest.xml:10:5-20
-MERGED from [com.skyfishjy.ripplebackground:library:1.0.1] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\ed5d664fd4d4e4b3c45f017d3bbe1265\jetified-library-1.0.1\AndroidManifest.xml:11:5-20
-MERGED from [com.skyfishjy.ripplebackground:library:1.0.1] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\ed5d664fd4d4e4b3c45f017d3bbe1265\jetified-library-1.0.1\AndroidManifest.xml:11:5-20
-MERGED from [com.google.android.gms:play-services-base:17.5.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\14b1faa48bb5bf5b6a196b8237ea9915\jetified-play-services-base-17.5.0\AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.android.gms:play-services-base:17.5.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\14b1faa48bb5bf5b6a196b8237ea9915\jetified-play-services-base-17.5.0\AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\ba907b4bfffd46384282b1deb2d08746\jetified-play-services-places-placereport-17.0.0\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\ba907b4bfffd46384282b1deb2d08746\jetified-play-services-places-placereport-17.0.0\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-tasks:17.2.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\42ca789807af5760d1fa506b9e57705b\jetified-play-services-tasks-17.2.0\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-tasks:17.2.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\42ca789807af5760d1fa506b9e57705b\jetified-play-services-tasks-17.2.0\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-basement:17.5.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\b9841504fae6f64784cf91693aba9c74\jetified-play-services-basement-17.5.0\AndroidManifest.xml:22:5-26:19
-MERGED from [com.google.android.gms:play-services-basement:17.5.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\b9841504fae6f64784cf91693aba9c74\jetified-play-services-basement-17.5.0\AndroidManifest.xml:22:5-26:19
-MERGED from [androidx.core:core:1.6.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\73f7892e616b9e29c1878b41583edc2b\core-1.6.0\AndroidManifest.xml:24:5-89
-MERGED from [androidx.core:core:1.6.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\73f7892e616b9e29c1878b41583edc2b\core-1.6.0\AndroidManifest.xml:24:5-89
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\dbade14a33fd99929764039931c265c9\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\dbade14a33fd99929764039931c265c9\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
-MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\3a1c9756a1035bb254cfa1985366a193\jetified-gifdecoder-4.12.0\AndroidManifest.xml:9:5-20
-MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\3a1c9756a1035bb254cfa1985366a193\jetified-gifdecoder-4.12.0\AndroidManifest.xml:9:5-20
+ADDED from /home/nabil/projects/temp/autoLibDZ/app/src/main/AndroidManifest.xml:19:5-52:19
+MERGED from [com.airbnb.android:lottie:3.7.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/3dc4e6760f155d7e28c95d1253f53e86/jetified-lottie-3.7.0/AndroidManifest.xml:9:5-20
+MERGED from [com.airbnb.android:lottie:3.7.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/3dc4e6760f155d7e28c95d1253f53e86/jetified-lottie-3.7.0/AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.material:material:1.4.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/43f5dbb407f57f1b486390bdbaea29b7/material-1.4.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.4.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/43f5dbb407f57f1b486390bdbaea29b7/material-1.4.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /home/nabil/.gradle/caches/transforms-2/files-2.1/27134646f0ad488b675a989cd1661eb0/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /home/nabil/.gradle/caches/transforms-2/files-2.1/27134646f0ad488b675a989cd1661eb0/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-maps:17.0.1] /home/nabil/.gradle/caches/transforms-2/files-2.1/f61384468b3dbbd7123c8667222bccba/jetified-play-services-maps-17.0.1/AndroidManifest.xml:36:5-42:19
+MERGED from [com.google.android.gms:play-services-maps:17.0.1] /home/nabil/.gradle/caches/transforms-2/files-2.1/f61384468b3dbbd7123c8667222bccba/jetified-play-services-maps-17.0.1/AndroidManifest.xml:36:5-42:19
+MERGED from [com.google.android.gms:play-services-location:18.0.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/639c5fddabb62bf17deca2ff3df20f83/jetified-play-services-location-18.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:18.0.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/639c5fddabb62bf17deca2ff3df20f83/jetified-play-services-location-18.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-storage-ktx:20.0.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/2154d9bcd78cc9340c1f66d7e1e550b9/jetified-firebase-storage-ktx-20.0.0/AndroidManifest.xml:11:5-19:19
+MERGED from [com.google.firebase:firebase-storage-ktx:20.0.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/2154d9bcd78cc9340c1f66d7e1e550b9/jetified-firebase-storage-ktx-20.0.0/AndroidManifest.xml:11:5-19:19
+MERGED from [com.github.bumptech.glide:glide:4.12.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/1f4fbf47ed28ee207720d4d618763914/jetified-glide-4.12.0/AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.12.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/1f4fbf47ed28ee207720d4d618763914/jetified-glide-4.12.0/AndroidManifest.xml:10:5-20
+MERGED from [org.jetbrains.anko:anko-common:0.10.8] /home/nabil/.gradle/caches/transforms-2/files-2.1/843ac17f77ceccfbc8b96d90efdb1668/jetified-anko-common-0.10.8/AndroidManifest.xml:11:5-20
+MERGED from [org.jetbrains.anko:anko-common:0.10.8] /home/nabil/.gradle/caches/transforms-2/files-2.1/843ac17f77ceccfbc8b96d90efdb1668/jetified-anko-common-0.10.8/AndroidManifest.xml:11:5-20
+MERGED from [com.skyfishjy.ripplebackground:library:1.0.1] /home/nabil/.gradle/caches/transforms-2/files-2.1/1f330b9fc8d0ea3e9736aa868657c062/jetified-library-1.0.1/AndroidManifest.xml:11:5-20
+MERGED from [com.skyfishjy.ripplebackground:library:1.0.1] /home/nabil/.gradle/caches/transforms-2/files-2.1/1f330b9fc8d0ea3e9736aa868657c062/jetified-library-1.0.1/AndroidManifest.xml:11:5-20
+MERGED from [com.google.firebase:firebase-common-ktx:20.0.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/bacb4074df5d3ab602315dad9d2eb950/jetified-firebase-common-ktx-20.0.0/AndroidManifest.xml:11:5-19:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.0.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/bacb4074df5d3ab602315dad9d2eb950/jetified-firebase-common-ktx-20.0.0/AndroidManifest.xml:11:5-19:19
+MERGED from [com.google.firebase:firebase-storage:20.0.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/aeb855d6b4c870e14c7c8378b4d3914f/jetified-firebase-storage-20.0.0/AndroidManifest.xml:29:5-37:19
+MERGED from [com.google.firebase:firebase-storage:20.0.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/aeb855d6b4c870e14c7c8378b4d3914f/jetified-firebase-storage-20.0.0/AndroidManifest.xml:29:5-37:19
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta01] /home/nabil/.gradle/caches/transforms-2/files-2.1/09f11732fc3e1c975852e555fa03ec1c/jetified-firebase-appcheck-interop-16.0.0-beta01/AndroidManifest.xml:24:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta01] /home/nabil/.gradle/caches/transforms-2/files-2.1/09f11732fc3e1c975852e555fa03ec1c/jetified-firebase-appcheck-interop-16.0.0-beta01/AndroidManifest.xml:24:5-20
+MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/a80f7e800350e567d4bd191ae7da5d56/jetified-firebase-auth-interop-18.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/a80f7e800350e567d4bd191ae7da5d56/jetified-firebase-auth-interop-18.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-common:20.0.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/13af2d76a080fe30ca69802e5da8cab8/jetified-firebase-common-20.0.0/AndroidManifest.xml:25:5-38:19
+MERGED from [com.google.firebase:firebase-common:20.0.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/13af2d76a080fe30ca69802e5da8cab8/jetified-firebase-common-20.0.0/AndroidManifest.xml:25:5-38:19
+MERGED from [com.google.android.gms:play-services-base:17.5.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/276d8a70bdaf7275f1ba97e24988ad1b/jetified-play-services-base-17.5.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.5.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/276d8a70bdaf7275f1ba97e24988ad1b/jetified-play-services-base-17.5.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/ac91d80d4c84924d8e3e9e7539a4224e/jetified-play-services-places-placereport-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/ac91d80d4c84924d8e3e9e7539a4224e/jetified-play-services-places-placereport-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.2.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/d33cd5f8e81c083c208c0494517ff113/jetified-play-services-tasks-17.2.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.2.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/d33cd5f8e81c083c208c0494517ff113/jetified-play-services-tasks-17.2.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.5.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/80dbfffb0b8f41171977e845c58eaeea/jetified-play-services-basement-17.5.0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.5.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/80dbfffb0b8f41171977e845c58eaeea/jetified-play-services-basement-17.5.0/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.7.0-alpha01] /home/nabil/.gradle/caches/transforms-2/files-2.1/470cd1f8fbd9e0061e9734ab02d3ec47/core-1.7.0-alpha01/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.7.0-alpha01] /home/nabil/.gradle/caches/transforms-2/files-2.1/470cd1f8fbd9e0061e9734ab02d3ec47/core-1.7.0-alpha01/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/nabil/.gradle/caches/transforms-2/files-2.1/298ac33f6fae988db5ac7bd88b1bfb59/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/nabil/.gradle/caches/transforms-2/files-2.1/298ac33f6fae988db5ac7bd88b1bfb59/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [org.jetbrains.anko:anko-commons:0.10.8] /home/nabil/.gradle/caches/transforms-2/files-2.1/5a1852bbff40eea3388769419bc39366/jetified-anko-commons-0.10.8/AndroidManifest.xml:11:5-20
+MERGED from [org.jetbrains.anko:anko-commons:0.10.8] /home/nabil/.gradle/caches/transforms-2/files-2.1/5a1852bbff40eea3388769419bc39366/jetified-anko-commons-0.10.8/AndroidManifest.xml:11:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/6b5ede7b05fc238d038f82011dd26661/jetified-gifdecoder-4.12.0/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/6b5ede7b05fc238d038f82011dd26661/jetified-gifdecoder-4.12.0/AndroidManifest.xml:9:5-20
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.6.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\73f7892e616b9e29c1878b41583edc2b\core-1.6.0\AndroidManifest.xml:24:18-86
+		ADDED from [androidx.core:core:1.7.0-alpha01] /home/nabil/.gradle/caches/transforms-2/files-2.1/470cd1f8fbd9e0061e9734ab02d3ec47/core-1.7.0-alpha01/AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from C:\version_final\autoLibDZ\app\src\main\AndroidManifest.xml:24:9-35
+		ADDED from /home/nabil/projects/temp/autoLibDZ/app/src/main/AndroidManifest.xml:24:9-35
 	android:label
-		ADDED from C:\version_final\autoLibDZ\app\src\main\AndroidManifest.xml:22:9-41
+		ADDED from /home/nabil/projects/temp/autoLibDZ/app/src/main/AndroidManifest.xml:22:9-41
 	android:roundIcon
-		ADDED from C:\version_final\autoLibDZ\app\src\main\AndroidManifest.xml:23:9-54
+		ADDED from /home/nabil/projects/temp/autoLibDZ/app/src/main/AndroidManifest.xml:23:9-54
 	android:icon
-		ADDED from C:\version_final\autoLibDZ\app\src\main\AndroidManifest.xml:21:9-43
+		ADDED from /home/nabil/projects/temp/autoLibDZ/app/src/main/AndroidManifest.xml:21:9-43
 	android:allowBackup
-		ADDED from C:\version_final\autoLibDZ\app\src\main\AndroidManifest.xml:20:9-35
+		ADDED from /home/nabil/projects/temp/autoLibDZ/app/src/main/AndroidManifest.xml:20:9-35
 	android:theme
-		ADDED from C:\version_final\autoLibDZ\app\src\main\AndroidManifest.xml:26:9-47
+		ADDED from /home/nabil/projects/temp/autoLibDZ/app/src/main/AndroidManifest.xml:26:9-47
 	android:usesCleartextTraffic
-		ADDED from C:\version_final\autoLibDZ\app\src\main\AndroidManifest.xml:25:9-44
+		ADDED from /home/nabil/projects/temp/autoLibDZ/app/src/main/AndroidManifest.xml:25:9-44
 activity#com.clovertech.autolibdz.activities.password.ResetPasswordActivity
-ADDED from C:\version_final\autoLibDZ\app\src\main\AndroidManifest.xml:27:9-103
+ADDED from /home/nabil/projects/temp/autoLibDZ/app/src/main/AndroidManifest.xml:27:9-103
 	android:name
-		ADDED from C:\version_final\autoLibDZ\app\src\main\AndroidManifest.xml:27:19-100
+		ADDED from /home/nabil/projects/temp/autoLibDZ/app/src/main/AndroidManifest.xml:27:19-100
 activity#com.clovertech.autolibdz.activities.auth.RegisterActivity
-ADDED from C:\version_final\autoLibDZ\app\src\main\AndroidManifest.xml:28:9-94
+ADDED from /home/nabil/projects/temp/autoLibDZ/app/src/main/AndroidManifest.xml:28:9-94
 	android:name
-		ADDED from C:\version_final\autoLibDZ\app\src\main\AndroidManifest.xml:28:19-91
+		ADDED from /home/nabil/projects/temp/autoLibDZ/app/src/main/AndroidManifest.xml:28:19-91
 activity#com.clovertech.autolibdz.activities.HomeActivity
-ADDED from C:\version_final\autoLibDZ\app\src\main\AndroidManifest.xml:29:9-31:47
+ADDED from /home/nabil/projects/temp/autoLibDZ/app/src/main/AndroidManifest.xml:29:9-31:47
 	android:theme
-		ADDED from C:\version_final\autoLibDZ\app\src\main\AndroidManifest.xml:30:9-47
+		ADDED from /home/nabil/projects/temp/autoLibDZ/app/src/main/AndroidManifest.xml:30:9-47
 	android:usesCleartextTraffic
-		ADDED from C:\version_final\autoLibDZ\app\src\main\AndroidManifest.xml:31:9-44
+		ADDED from /home/nabil/projects/temp/autoLibDZ/app/src/main/AndroidManifest.xml:31:9-44
 	android:name
-		ADDED from C:\version_final\autoLibDZ\app\src\main\AndroidManifest.xml:29:19-58
+		ADDED from /home/nabil/projects/temp/autoLibDZ/app/src/main/AndroidManifest.xml:29:19-58
 activity#com.clovertech.autolibdz.activities.auth.LoginActivity
-ADDED from C:\version_final\autoLibDZ\app\src\main\AndroidManifest.xml:32:9-35:66
+ADDED from /home/nabil/projects/temp/autoLibDZ/app/src/main/AndroidManifest.xml:32:9-35:66
 	android:label
-		ADDED from C:\version_final\autoLibDZ\app\src\main\AndroidManifest.xml:34:13-45
+		ADDED from /home/nabil/projects/temp/autoLibDZ/app/src/main/AndroidManifest.xml:34:13-45
 	android:theme
-		ADDED from C:\version_final\autoLibDZ\app\src\main\AndroidManifest.xml:35:13-63
+		ADDED from /home/nabil/projects/temp/autoLibDZ/app/src/main/AndroidManifest.xml:35:13-63
 	android:name
-		ADDED from C:\version_final\autoLibDZ\app\src\main\AndroidManifest.xml:33:13-82
+		ADDED from /home/nabil/projects/temp/autoLibDZ/app/src/main/AndroidManifest.xml:33:13-82
 activity#com.clovertech.autolibdz.activities.OnBoardingActivity
-ADDED from C:\version_final\autoLibDZ\app\src\main\AndroidManifest.xml:37:9-66
+ADDED from /home/nabil/projects/temp/autoLibDZ/app/src/main/AndroidManifest.xml:37:9-66
 	android:name
-		ADDED from C:\version_final\autoLibDZ\app\src\main\AndroidManifest.xml:37:19-64
+		ADDED from /home/nabil/projects/temp/autoLibDZ/app/src/main/AndroidManifest.xml:37:19-64
 activity#com.clovertech.autolibdz.activities.MainActivity
-ADDED from C:\version_final\autoLibDZ\app\src\main\AndroidManifest.xml:38:9-60
+ADDED from /home/nabil/projects/temp/autoLibDZ/app/src/main/AndroidManifest.xml:38:9-60
 	android:name
-		ADDED from C:\version_final\autoLibDZ\app\src\main\AndroidManifest.xml:38:19-58
+		ADDED from /home/nabil/projects/temp/autoLibDZ/app/src/main/AndroidManifest.xml:38:19-58
 activity#com.clovertech.autolibdz.activities.CarsActivity
-ADDED from C:\version_final\autoLibDZ\app\src\main\AndroidManifest.xml:39:9-60
+ADDED from /home/nabil/projects/temp/autoLibDZ/app/src/main/AndroidManifest.xml:39:9-60
 	android:name
-		ADDED from C:\version_final\autoLibDZ\app\src\main\AndroidManifest.xml:39:19-58
+		ADDED from /home/nabil/projects/temp/autoLibDZ/app/src/main/AndroidManifest.xml:39:19-58
 activity#com.clovertech.autolibdz.activities.EndLocationActivity
-ADDED from C:\version_final\autoLibDZ\app\src\main\AndroidManifest.xml:40:9-67
+ADDED from /home/nabil/projects/temp/autoLibDZ/app/src/main/AndroidManifest.xml:40:9-67
 	android:name
-		ADDED from C:\version_final\autoLibDZ\app\src\main\AndroidManifest.xml:40:19-65
+		ADDED from /home/nabil/projects/temp/autoLibDZ/app/src/main/AndroidManifest.xml:40:19-65
 activity#com.clovertech.autolibdz.activities.SplashActivity
-ADDED from C:\version_final\autoLibDZ\app\src\main\AndroidManifest.xml:41:9-46:20
+ADDED from /home/nabil/projects/temp/autoLibDZ/app/src/main/AndroidManifest.xml:41:9-46:20
 	android:name
-		ADDED from C:\version_final\autoLibDZ\app\src\main\AndroidManifest.xml:41:19-60
+		ADDED from /home/nabil/projects/temp/autoLibDZ/app/src/main/AndroidManifest.xml:41:19-60
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\version_final\autoLibDZ\app\src\main\AndroidManifest.xml:42:13-45:29
+ADDED from /home/nabil/projects/temp/autoLibDZ/app/src/main/AndroidManifest.xml:42:13-45:29
 action#android.intent.action.MAIN
-ADDED from C:\version_final\autoLibDZ\app\src\main\AndroidManifest.xml:43:17-69
+ADDED from /home/nabil/projects/temp/autoLibDZ/app/src/main/AndroidManifest.xml:43:17-69
 	android:name
-		ADDED from C:\version_final\autoLibDZ\app\src\main\AndroidManifest.xml:43:25-66
+		ADDED from /home/nabil/projects/temp/autoLibDZ/app/src/main/AndroidManifest.xml:43:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\version_final\autoLibDZ\app\src\main\AndroidManifest.xml:44:17-77
+ADDED from /home/nabil/projects/temp/autoLibDZ/app/src/main/AndroidManifest.xml:44:17-77
 	android:name
-		ADDED from C:\version_final\autoLibDZ\app\src\main\AndroidManifest.xml:44:27-74
+		ADDED from /home/nabil/projects/temp/autoLibDZ/app/src/main/AndroidManifest.xml:44:27-74
 activity#com.clovertech.autolibdz.activities.FindYourCarActivity
-ADDED from C:\version_final\autoLibDZ\app\src\main\AndroidManifest.xml:47:9-67
+ADDED from /home/nabil/projects/temp/autoLibDZ/app/src/main/AndroidManifest.xml:47:9-67
 	android:name
-		ADDED from C:\version_final\autoLibDZ\app\src\main\AndroidManifest.xml:47:19-65
+		ADDED from /home/nabil/projects/temp/autoLibDZ/app/src/main/AndroidManifest.xml:47:19-65
 meta-data#com.google.android.geo.API_KEY
-ADDED from C:\version_final\autoLibDZ\app\src\main\AndroidManifest.xml:49:9-51:47
+ADDED from /home/nabil/projects/temp/autoLibDZ/app/src/main/AndroidManifest.xml:49:9-51:47
 	android:value
-		ADDED from C:\version_final\autoLibDZ\app\src\main\AndroidManifest.xml:51:13-44
+		ADDED from /home/nabil/projects/temp/autoLibDZ/app/src/main/AndroidManifest.xml:51:13-44
 	android:name
-		ADDED from C:\version_final\autoLibDZ\app\src\main\AndroidManifest.xml:50:13-58
+		ADDED from /home/nabil/projects/temp/autoLibDZ/app/src/main/AndroidManifest.xml:50:13-58
 uses-sdk
-INJECTED from C:\version_final\autoLibDZ\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\version_final\autoLibDZ\app\src\main\AndroidManifest.xml
-INJECTED from C:\version_final\autoLibDZ\app\src\main\AndroidManifest.xml
-MERGED from [androidx.databinding:databinding-adapters:4.1.3] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\7f46fafb76ad45dcd7b7e2dfb8b1da9a\databinding-adapters-4.1.3\AndroidManifest.xml:22:5-44
-MERGED from [androidx.databinding:databinding-adapters:4.1.3] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\7f46fafb76ad45dcd7b7e2dfb8b1da9a\databinding-adapters-4.1.3\AndroidManifest.xml:22:5-44
-MERGED from [androidx.databinding:databinding-runtime:4.1.3] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\7b5fee3c6e7749307d9cdf6682495c0a\databinding-runtime-4.1.3\AndroidManifest.xml:22:5-44
-MERGED from [androidx.databinding:databinding-runtime:4.1.3] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\7b5fee3c6e7749307d9cdf6682495c0a\databinding-runtime-4.1.3\AndroidManifest.xml:22:5-44
-MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.5] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\b5f458d0a6cb0ffe8234f8af04d9b969\navigation-fragment-ktx-2.3.5\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.5] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\b5f458d0a6cb0ffe8234f8af04d9b969\navigation-fragment-ktx-2.3.5\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment-ktx:1.2.4] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\85a72c95e2898476f90b47f72973f2dc\jetified-fragment-ktx-1.2.4\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment-ktx:1.2.4] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\85a72c95e2898476f90b47f72973f2dc\jetified-fragment-ktx-1.2.4\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-ui-ktx:2.3.5] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\5fc4c0781ceeb84d1f4adccce7319977\navigation-ui-ktx-2.3.5\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-ui-ktx:2.3.5] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\5fc4c0781ceeb84d1f4adccce7319977\navigation-ui-ktx-2.3.5\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.5] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\3ebcf4505fe5f2fd04e403074db10430\navigation-runtime-ktx-2.3.5\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.5] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\3ebcf4505fe5f2fd04e403074db10430\navigation-runtime-ktx-2.3.5\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-common-ktx:2.3.5] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\0e12f0cfba56588bff64dc63ccdb01ed\navigation-common-ktx-2.3.5\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-common-ktx:2.3.5] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\0e12f0cfba56588bff64dc63ccdb01ed\navigation-common-ktx-2.3.5\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity-ktx:1.1.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\5e0ff57d53345c64b40f2188428b5cc6\jetified-activity-ktx-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity-ktx:1.1.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\5e0ff57d53345c64b40f2188428b5cc6\jetified-activity-ktx-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core-ktx:1.6.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\8d67fceabd8524532c3f9a8bcc777b70\jetified-core-ktx-1.6.0\AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.core:core-ktx:1.6.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\8d67fceabd8524532c3f9a8bcc777b70\jetified-core-ktx-1.6.0\AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.3.1] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\d0397ad939c35cb83f2294682383c719\jetified-lifecycle-livedata-ktx-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.3.1] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\d0397ad939c35cb83f2294682383c719\jetified-lifecycle-livedata-ktx-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\8eefa461f103d9c7bd2d1150cf5d4b10\jetified-lifecycle-viewmodel-ktx-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\8eefa461f103d9c7bd2d1150cf5d4b10\jetified-lifecycle-viewmodel-ktx-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [org.jetbrains.anko:anko-common:0.10.8] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\525cf820f6201079e190831f15e88c43\jetified-anko-common-0.10.8\AndroidManifest.xml:7:5-9:41
-MERGED from [org.jetbrains.anko:anko-common:0.10.8] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\525cf820f6201079e190831f15e88c43\jetified-anko-common-0.10.8\AndroidManifest.xml:7:5-9:41
-MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.1] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\be47f31f47d5deec2e3b682ecd8aab08\jetified-lifecycle-livedata-core-ktx-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.1] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\be47f31f47d5deec2e3b682ecd8aab08\jetified-lifecycle-livedata-core-ktx-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\44ed810e320bb05ec1dbaef58a33727f\jetified-lifecycle-runtime-ktx-2.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\44ed810e320bb05ec1dbaef58a33727f\jetified-lifecycle-runtime-ktx-2.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [org.jetbrains.anko:anko-commons:0.10.8] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\9b2108119ddcfba42ca8fb181a5d48ad\jetified-anko-commons-0.10.8\AndroidManifest.xml:7:5-9:41
-MERGED from [org.jetbrains.anko:anko-commons:0.10.8] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\9b2108119ddcfba42ca8fb181a5d48ad\jetified-anko-commons-0.10.8\AndroidManifest.xml:7:5-9:41
-MERGED from [com.airbnb.android:lottie:3.7.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\9910e3c8cd25a578529d92311db7d925\jetified-lottie-3.7.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.airbnb.android:lottie:3.7.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\9910e3c8cd25a578529d92311db7d925\jetified-lottie-3.7.0\AndroidManifest.xml:5:5-7:41
-MERGED from [org.jetbrains.anko:commons-base:0.10.8] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\8d84d26e9e2f4afe14c0d3ce8da4097d\jetified-commons-base-0.10.8\AndroidManifest.xml:7:5-9:41
-MERGED from [org.jetbrains.anko:commons-base:0.10.8] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\8d84d26e9e2f4afe14c0d3ce8da4097d\jetified-commons-base-0.10.8\AndroidManifest.xml:7:5-9:41
-MERGED from [androidx.navigation:navigation-ui:2.3.5] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\227eda703cf0dcc15779b2e6f5d214e5\navigation-ui-2.3.5\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-ui:2.3.5] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\227eda703cf0dcc15779b2e6f5d214e5\navigation-ui-2.3.5\AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.material:material:1.4.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\268c09e58ab2fdf942d15d2a1cfc9831\material-1.4.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.material:material:1.4.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\268c09e58ab2fdf942d15d2a1cfc9831\material-1.4.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\72130ebd2c011aad491b6fbdb67949f4\constraintlayout-2.0.4\AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\72130ebd2c011aad491b6fbdb67949f4\constraintlayout-2.0.4\AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.appcompat:appcompat:1.3.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\d3ecca2f241900c5020aa273b3ed01e1\appcompat-1.3.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat:1.3.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\d3ecca2f241900c5020aa273b3ed01e1\appcompat-1.3.0\AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.gms:play-services-maps:17.0.1] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\5657dadc132c9e03eb989af690b67a25\jetified-play-services-maps-17.0.1\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-maps:17.0.1] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\5657dadc132c9e03eb989af690b67a25\jetified-play-services-maps-17.0.1\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-location:18.0.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\10ea66837804517522b904daa018234e\jetified-play-services-location-18.0.0\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-location:18.0.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\10ea66837804517522b904daa018234e\jetified-play-services-location-18.0.0\AndroidManifest.xml:5:5-44
-MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\c1d1c15cf7e3c4ffd3077c1e459d2ccb\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\c1d1c15cf7e3c4ffd3077c1e459d2ccb\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\9879a68dc90d1b780907f58813f7cdca\cardview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\9879a68dc90d1b780907f58813f7cdca\cardview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\56b86dbfa7e26cd3232b6aaf1fad578a\jetified-glide-4.12.0\AndroidManifest.xml:6:5-8:41
-MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\56b86dbfa7e26cd3232b6aaf1fad578a\jetified-glide-4.12.0\AndroidManifest.xml:6:5-8:41
-MERGED from [com.android.volley:volley:1.2.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\7f46cecfe497089ab65964724af6d459\jetified-volley-1.2.0\AndroidManifest.xml:5:5-43
-MERGED from [com.android.volley:volley:1.2.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\7f46cecfe497089ab65964724af6d459\jetified-volley-1.2.0\AndroidManifest.xml:5:5-43
-MERGED from [com.skyfishjy.ripplebackground:library:1.0.1] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\ed5d664fd4d4e4b3c45f017d3bbe1265\jetified-library-1.0.1\AndroidManifest.xml:7:5-9:41
-MERGED from [com.skyfishjy.ripplebackground:library:1.0.1] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\ed5d664fd4d4e4b3c45f017d3bbe1265\jetified-library-1.0.1\AndroidManifest.xml:7:5-9:41
-MERGED from [androidx.databinding:viewbinding:4.1.3] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\66d1574dac2d6241342e19c312cab98f\jetified-viewbinding-4.1.3\AndroidManifest.xml:20:5-44
-MERGED from [androidx.databinding:viewbinding:4.1.3] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\66d1574dac2d6241342e19c312cab98f\jetified-viewbinding-4.1.3\AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\08dc7cbc2068a20e772491bfb2bab495\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\08dc7cbc2068a20e772491bfb2bab495\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-fragment:2.3.5] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\8590003727dd3fd608f172a36076cb8d\navigation-fragment-2.3.5\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-fragment:2.3.5] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\8590003727dd3fd608f172a36076cb8d\navigation-fragment-2.3.5\AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.gms:play-services-base:17.5.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\14b1faa48bb5bf5b6a196b8237ea9915\jetified-play-services-base-17.5.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-base:17.5.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\14b1faa48bb5bf5b6a196b8237ea9915\jetified-play-services-base-17.5.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\ba907b4bfffd46384282b1deb2d08746\jetified-play-services-places-placereport-17.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\ba907b4bfffd46384282b1deb2d08746\jetified-play-services-places-placereport-17.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-tasks:17.2.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\42ca789807af5760d1fa506b9e57705b\jetified-play-services-tasks-17.2.0\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-tasks:17.2.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\42ca789807af5760d1fa506b9e57705b\jetified-play-services-tasks-17.2.0\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-basement:17.5.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\b9841504fae6f64784cf91693aba9c74\jetified-play-services-basement-17.5.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-basement:17.5.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\b9841504fae6f64784cf91693aba9c74\jetified-play-services-basement-17.5.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.fragment:fragment:1.3.4] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\d75ec519209761ec310c161736e63ef5\fragment-1.3.4\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.3.4] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\d75ec519209761ec310c161736e63ef5\fragment-1.3.4\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-runtime:2.3.5] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\c0ca67130910bd7c02fa86fdb070a8fa\navigation-runtime-2.3.5\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-runtime:2.3.5] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\c0ca67130910bd7c02fa86fdb070a8fa\navigation-runtime-2.3.5\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.2.3] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\45e43bc49e7e2b4a9c3c40adcc355ca2\jetified-activity-1.2.3\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.2.3] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\45e43bc49e7e2b4a9c3c40adcc355ca2\jetified-activity-1.2.3\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.3.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\1723f391b959a226c857ffdff9349d29\jetified-appcompat-resources-1.3.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.3.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\1723f391b959a226c857ffdff9349d29\jetified-appcompat-resources-1.3.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\f55ef733d3d27794390d7985c0f65e5e\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\f55ef733d3d27794390d7985c0f65e5e\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\326ae6449b35a222df2e92281e429362\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\326ae6449b35a222df2e92281e429362\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\027e4da801ed43058f7f41f475a6bf77\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\027e4da801ed43058f7f41f475a6bf77\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\3465153d35760e9c04d7ea3a53110d21\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\3465153d35760e9c04d7ea3a53110d21\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\1589cd5bbe9cbb627a3564cdd413b71a\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\1589cd5bbe9cbb627a3564cdd413b71a\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.media:media:1.0.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\5ab6b5d37cf154405ab45703e04542dc\media-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.media:media:1.0.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\5ab6b5d37cf154405ab45703e04542dc\media-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\73846e6d9a05d6c6263a8d3b63f4c212\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\73846e6d9a05d6c6263a8d3b63f4c212\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\c4e48db3fde462518219bca5bb10ac3c\viewpager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\c4e48db3fde462518219bca5bb10ac3c\viewpager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\49ce83a26c58541d5e0819f3d44f0360\loader-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\49ce83a26c58541d5e0819f3d44f0360\loader-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\09cfde4d92ef2136970545201846bc0e\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\09cfde4d92ef2136970545201846bc0e\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\244119a153bea340c76c397932d7648b\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\244119a153bea340c76c397932d7648b\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\2480fc9f7cada0540b8e98f7c935ec92\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\2480fc9f7cada0540b8e98f7c935ec92\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.1.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\a7cd92c51c0a38ee1611046a2812463b\customview-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.customview:customview:1.1.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\a7cd92c51c0a38ee1611046a2812463b\customview-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.transition:transition:1.3.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\be65e36bfb941a75c469ebf4214607f3\transition-1.3.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.transition:transition:1.3.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\be65e36bfb941a75c469ebf4214607f3\transition-1.3.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\bf82a8ea0c27a0856baf8a4c9d73a4b5\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\bf82a8ea0c27a0856baf8a4c9d73a4b5\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\6e496918dc472ab36ea079d4d545242a\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\6e496918dc472ab36ea079d4d545242a\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.navigation:navigation-common:2.3.5] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\965da232ecd9fee43118f79e70766136\navigation-common-2.3.5\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-common:2.3.5] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\965da232ecd9fee43118f79e70766136\navigation-common-2.3.5\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.6.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\73f7892e616b9e29c1878b41583edc2b\core-1.6.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.6.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\73f7892e616b9e29c1878b41583edc2b\core-1.6.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\55ab6991b904c478f067eef03c49028b\lifecycle-runtime-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\55ab6991b904c478f067eef03c49028b\lifecycle-runtime-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\dbade14a33fd99929764039931c265c9\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\dbade14a33fd99929764039931c265c9\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\0a666033804ff03817fffacfe156071a\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\0a666033804ff03817fffacfe156071a\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\ab68914ebaaa70b6f716015c6a677b49\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\ab68914ebaaa70b6f716015c6a677b49\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\154160c45a62d4486d15e83c53494598\jetified-savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\154160c45a62d4486d15e83c53494598\jetified-savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\7ee51daeae2bdf7986961d9cad2b8429\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\7ee51daeae2bdf7986961d9cad2b8429\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\3a1c9756a1035bb254cfa1985366a193\jetified-gifdecoder-4.12.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\3a1c9756a1035bb254cfa1985366a193\jetified-gifdecoder-4.12.0\AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.exifinterface:exifinterface:1.2.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\92826f468cf5cfb93a5f92474363aeec\exifinterface-1.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.exifinterface:exifinterface:1.2.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\92826f468cf5cfb93a5f92474363aeec\exifinterface-1.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.3.1] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\415948f945b51989885c91e3fb5a8ca6\lifecycle-livedata-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.3.1] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\415948f945b51989885c91e3fb5a8ca6\lifecycle-livedata-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\8e11c27ffc04a75b77f69255f9885919\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\8e11c27ffc04a75b77f69255f9885919\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\8ffc2cd3d316263f3f70c5a6bd0cb28d\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\8ffc2cd3d316263f3f70c5a6bd0cb28d\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\7d8f55df3a3dd4cf061007d26b70cb9f\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\7d8f55df3a3dd4cf061007d26b70cb9f\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\6902f1542b8ee5d6447b6c8d0ec3c7be\documentfile-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\6902f1542b8ee5d6447b6c8d0ec3c7be\documentfile-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\106f9c6085e0bb6709c9fdde321d63bc\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\106f9c6085e0bb6709c9fdde321d63bc\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\aceead37f8ac9ecc48d703932f562d92\print-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\aceead37f8ac9ecc48d703932f562d92\print-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\eb3321cc0be47fa95ab614430d83509e\interpolator-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\eb3321cc0be47fa95ab614430d83509e\interpolator-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\bb070520ad947a3ec864714d5e51434c\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\bb070520ad947a3ec864714d5e51434c\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
-INJECTED from C:\version_final\autoLibDZ\app\src\main\AndroidManifest.xml
-INJECTED from C:\version_final\autoLibDZ\app\src\main\AndroidManifest.xml
+INJECTED from /home/nabil/projects/temp/autoLibDZ/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/nabil/projects/temp/autoLibDZ/app/src/main/AndroidManifest.xml
+INJECTED from /home/nabil/projects/temp/autoLibDZ/app/src/main/AndroidManifest.xml
+MERGED from [androidx.databinding:databinding-adapters:4.1.3] /home/nabil/.gradle/caches/transforms-2/files-2.1/470428979c9f471423f7f191cdb9bc5c/databinding-adapters-4.1.3/AndroidManifest.xml:22:5-44
+MERGED from [androidx.databinding:databinding-adapters:4.1.3] /home/nabil/.gradle/caches/transforms-2/files-2.1/470428979c9f471423f7f191cdb9bc5c/databinding-adapters-4.1.3/AndroidManifest.xml:22:5-44
+MERGED from [androidx.databinding:databinding-runtime:4.1.3] /home/nabil/.gradle/caches/transforms-2/files-2.1/1e1eebd0795858ea8a71c22048c6e9c0/databinding-runtime-4.1.3/AndroidManifest.xml:22:5-44
+MERGED from [androidx.databinding:databinding-runtime:4.1.3] /home/nabil/.gradle/caches/transforms-2/files-2.1/1e1eebd0795858ea8a71c22048c6e9c0/databinding-runtime-4.1.3/AndroidManifest.xml:22:5-44
+MERGED from [com.airbnb.android:lottie:3.7.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/3dc4e6760f155d7e28c95d1253f53e86/jetified-lottie-3.7.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.airbnb.android:lottie:3.7.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/3dc4e6760f155d7e28c95d1253f53e86/jetified-lottie-3.7.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.5] /home/nabil/.gradle/caches/transforms-2/files-2.1/50267a48e3110ef94ff3778a5c545d92/navigation-fragment-ktx-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.5] /home/nabil/.gradle/caches/transforms-2/files-2.1/50267a48e3110ef94ff3778a5c545d92/navigation-fragment-ktx-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.2.4] /home/nabil/.gradle/caches/transforms-2/files-2.1/4847b5ac4ecd4e20a5be41a2c8d59614/jetified-fragment-ktx-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.2.4] /home/nabil/.gradle/caches/transforms-2/files-2.1/4847b5ac4ecd4e20a5be41a2c8d59614/jetified-fragment-ktx-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.5] /home/nabil/.gradle/caches/transforms-2/files-2.1/d2eb199cbdfee1ea5384a99cfb8f9124/navigation-ui-ktx-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.5] /home/nabil/.gradle/caches/transforms-2/files-2.1/d2eb199cbdfee1ea5384a99cfb8f9124/navigation-ui-ktx-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.5] /home/nabil/.gradle/caches/transforms-2/files-2.1/498af8c98f07cdce9bac51fa0418f88d/navigation-runtime-ktx-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.5] /home/nabil/.gradle/caches/transforms-2/files-2.1/498af8c98f07cdce9bac51fa0418f88d/navigation-runtime-ktx-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.5] /home/nabil/.gradle/caches/transforms-2/files-2.1/47c66ec975f0971aed90c16a7789e260/navigation-common-ktx-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.5] /home/nabil/.gradle/caches/transforms-2/files-2.1/47c66ec975f0971aed90c16a7789e260/navigation-common-ktx-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.1.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/3e9cf8edbc81a616beba8975e09bf586/jetified-activity-ktx-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.1.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/3e9cf8edbc81a616beba8975e09bf586/jetified-activity-ktx-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.7.0-alpha01] /home/nabil/.gradle/caches/transforms-2/files-2.1/46b8ada583326bde56d7e6d1c7d32073/jetified-core-ktx-1.7.0-alpha01/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.7.0-alpha01] /home/nabil/.gradle/caches/transforms-2/files-2.1/46b8ada583326bde56d7e6d1c7d32073/jetified-core-ktx-1.7.0-alpha01/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.navigation:navigation-ui:2.3.5] /home/nabil/.gradle/caches/transforms-2/files-2.1/63d834d483a496bcf5a1eff35919265c/navigation-ui-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.3.5] /home/nabil/.gradle/caches/transforms-2/files-2.1/63d834d483a496bcf5a1eff35919265c/navigation-ui-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.4.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/43f5dbb407f57f1b486390bdbaea29b7/material-1.4.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.4.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/43f5dbb407f57f1b486390bdbaea29b7/material-1.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /home/nabil/.gradle/caches/transforms-2/files-2.1/27134646f0ad488b675a989cd1661eb0/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /home/nabil/.gradle/caches/transforms-2/files-2.1/27134646f0ad488b675a989cd1661eb0/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.3.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/13384fbdb1f4e731ec0365c34ce13d79/appcompat-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.3.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/13384fbdb1f4e731ec0365c34ce13d79/appcompat-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.3.1] /home/nabil/.gradle/caches/transforms-2/files-2.1/bfe8d61ebca950b705d2e67ac4c49b97/jetified-lifecycle-livedata-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.3.1] /home/nabil/.gradle/caches/transforms-2/files-2.1/bfe8d61ebca950b705d2e67ac4c49b97/jetified-lifecycle-livedata-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1] /home/nabil/.gradle/caches/transforms-2/files-2.1/664e060d8b4ec5dca3815a2f064cb1fb/jetified-lifecycle-viewmodel-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1] /home/nabil/.gradle/caches/transforms-2/files-2.1/664e060d8b4ec5dca3815a2f064cb1fb/jetified-lifecycle-viewmodel-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-maps:17.0.1] /home/nabil/.gradle/caches/transforms-2/files-2.1/f61384468b3dbbd7123c8667222bccba/jetified-play-services-maps-17.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:17.0.1] /home/nabil/.gradle/caches/transforms-2/files-2.1/f61384468b3dbbd7123c8667222bccba/jetified-play-services-maps-17.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-location:18.0.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/639c5fddabb62bf17deca2ff3df20f83/jetified-play-services-location-18.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:18.0.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/639c5fddabb62bf17deca2ff3df20f83/jetified-play-services-location-18.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/4ae64f18cc69e71a0353f7986ad3ff3a/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/4ae64f18cc69e71a0353f7986ad3ff3a/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/dd66c65665e67d42d0b173681bd02b5a/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/dd66c65665e67d42d0b173681bd02b5a/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/1cce13088e3c05f9822101ad467a1c38/jetified-lifecycle-runtime-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/1cce13088e3c05f9822101ad467a1c38/jetified-lifecycle-runtime-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-storage-ktx:20.0.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/2154d9bcd78cc9340c1f66d7e1e550b9/jetified-firebase-storage-ktx-20.0.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-storage-ktx:20.0.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/2154d9bcd78cc9340c1f66d7e1e550b9/jetified-firebase-storage-ktx-20.0.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.12.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/1f4fbf47ed28ee207720d4d618763914/jetified-glide-4.12.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.12.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/1f4fbf47ed28ee207720d4d618763914/jetified-glide-4.12.0/AndroidManifest.xml:6:5-8:41
+MERGED from [org.jetbrains.anko:anko-common:0.10.8] /home/nabil/.gradle/caches/transforms-2/files-2.1/843ac17f77ceccfbc8b96d90efdb1668/jetified-anko-common-0.10.8/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:anko-common:0.10.8] /home/nabil/.gradle/caches/transforms-2/files-2.1/843ac17f77ceccfbc8b96d90efdb1668/jetified-anko-common-0.10.8/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.volley:volley:1.2.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/a69b726fad0d5341420193d3a4394776/jetified-volley-1.2.0/AndroidManifest.xml:5:5-43
+MERGED from [com.android.volley:volley:1.2.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/a69b726fad0d5341420193d3a4394776/jetified-volley-1.2.0/AndroidManifest.xml:5:5-43
+MERGED from [com.skyfishjy.ripplebackground:library:1.0.1] /home/nabil/.gradle/caches/transforms-2/files-2.1/1f330b9fc8d0ea3e9736aa868657c062/jetified-library-1.0.1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.skyfishjy.ripplebackground:library:1.0.1] /home/nabil/.gradle/caches/transforms-2/files-2.1/1f330b9fc8d0ea3e9736aa868657c062/jetified-library-1.0.1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-common-ktx:20.0.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/bacb4074df5d3ab602315dad9d2eb950/jetified-firebase-common-ktx-20.0.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common-ktx:20.0.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/bacb4074df5d3ab602315dad9d2eb950/jetified-firebase-common-ktx-20.0.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-storage:20.0.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/aeb855d6b4c870e14c7c8378b4d3914f/jetified-firebase-storage-20.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-storage:20.0.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/aeb855d6b4c870e14c7c8378b4d3914f/jetified-firebase-storage-20.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta01] /home/nabil/.gradle/caches/transforms-2/files-2.1/09f11732fc3e1c975852e555fa03ec1c/jetified-firebase-appcheck-interop-16.0.0-beta01/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta01] /home/nabil/.gradle/caches/transforms-2/files-2.1/09f11732fc3e1c975852e555fa03ec1c/jetified-firebase-appcheck-interop-16.0.0-beta01/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/a80f7e800350e567d4bd191ae7da5d56/jetified-firebase-auth-interop-18.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/a80f7e800350e567d4bd191ae7da5d56/jetified-firebase-auth-interop-18.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:20.0.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/13af2d76a080fe30ca69802e5da8cab8/jetified-firebase-common-20.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-common:20.0.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/13af2d76a080fe30ca69802e5da8cab8/jetified-firebase-common-20.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.databinding:viewbinding:4.1.3] /home/nabil/.gradle/caches/transforms-2/files-2.1/4c594be7e626523ddd4200ac6e4f39e8/jetified-viewbinding-4.1.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.databinding:viewbinding:4.1.3] /home/nabil/.gradle/caches/transforms-2/files-2.1/4c594be7e626523ddd4200ac6e4f39e8/jetified-viewbinding-4.1.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/510724a6a14c9c6e33a0a9f5e41b0a89/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/510724a6a14c9c6e33a0a9f5e41b0a89/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.3.5] /home/nabil/.gradle/caches/transforms-2/files-2.1/0ad14322ae0e7d5e804bff349eede258/navigation-fragment-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.3.5] /home/nabil/.gradle/caches/transforms-2/files-2.1/0ad14322ae0e7d5e804bff349eede258/navigation-fragment-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-base:17.5.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/276d8a70bdaf7275f1ba97e24988ad1b/jetified-play-services-base-17.5.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.5.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/276d8a70bdaf7275f1ba97e24988ad1b/jetified-play-services-base-17.5.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/ac91d80d4c84924d8e3e9e7539a4224e/jetified-play-services-places-placereport-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/ac91d80d4c84924d8e3e9e7539a4224e/jetified-play-services-places-placereport-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.2.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/d33cd5f8e81c083c208c0494517ff113/jetified-play-services-tasks-17.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.2.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/d33cd5f8e81c083c208c0494517ff113/jetified-play-services-tasks-17.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.5.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/80dbfffb0b8f41171977e845c58eaeea/jetified-play-services-basement-17.5.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.5.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/80dbfffb0b8f41171977e845c58eaeea/jetified-play-services-basement-17.5.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.3.4] /home/nabil/.gradle/caches/transforms-2/files-2.1/16bf342ead34ef8d015ef17179e3bd98/fragment-1.3.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.4] /home/nabil/.gradle/caches/transforms-2/files-2.1/16bf342ead34ef8d015ef17179e3bd98/fragment-1.3.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.3.5] /home/nabil/.gradle/caches/transforms-2/files-2.1/7ac525878848f150aec5fd6f6d6fdadb/navigation-runtime-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.3.5] /home/nabil/.gradle/caches/transforms-2/files-2.1/7ac525878848f150aec5fd6f6d6fdadb/navigation-runtime-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.3] /home/nabil/.gradle/caches/transforms-2/files-2.1/bfeeed78e35d1c2c7fe87aa6513fbdc4/jetified-activity-1.2.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.3] /home/nabil/.gradle/caches/transforms-2/files-2.1/bfeeed78e35d1c2c7fe87aa6513fbdc4/jetified-activity-1.2.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/29bec6662c44c2509f9fe408f6828e45/jetified-appcompat-resources-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/29bec6662c44c2509f9fe408f6828e45/jetified-appcompat-resources-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/fa34f1069f2371f7b099e7c9e327c034/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/fa34f1069f2371f7b099e7c9e327c034/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/30ce0febc3c8949193ae6a82f350be53/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/30ce0febc3c8949193ae6a82f350be53/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/4cd4192a1291439c5da10709e2e6c831/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/4cd4192a1291439c5da10709e2e6c831/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/825581edef1e5d5db0b942cddf0e8e0c/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/825581edef1e5d5db0b942cddf0e8e0c/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/be1dea5ee1f0a746b9e769e27d0c15f7/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/be1dea5ee1f0a746b9e769e27d0c15f7/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.0.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/47d23956bc15103d4375d1467a180237/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/47d23956bc15103d4375d1467a180237/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/24e117effd61556c02d4348b6866e67f/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/24e117effd61556c02d4348b6866e67f/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/d0152544e938774bfb8a54b151dd79fe/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/d0152544e938774bfb8a54b151dd79fe/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/2a97a2372eb753f3c6f32ac0f187da6c/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/2a97a2372eb753f3c6f32ac0f187da6c/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/57b2fb6bf837c4bf9d8f15fd914e6ec7/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/57b2fb6bf837c4bf9d8f15fd914e6ec7/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/nabil/.gradle/caches/transforms-2/files-2.1/acd78f27385f6e2df66e35460e899773/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/nabil/.gradle/caches/transforms-2/files-2.1/acd78f27385f6e2df66e35460e899773/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/51d837e95bffd85c9c3ec846710ff1e2/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/51d837e95bffd85c9c3ec846710ff1e2/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/d9cf873e5a35ce7664b50af6dc892f54/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/d9cf873e5a35ce7664b50af6dc892f54/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.3.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/2c09cb60284a339297e0ea78e66f962e/transition-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.3.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/2c09cb60284a339297e0ea78e66f962e/transition-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/374730042b9751f63e1772b5f974b0f7/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/374730042b9751f63e1772b5f974b0f7/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/8f489603cfc5402de7b27fc666a1544c/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/8f489603cfc5402de7b27fc666a1544c/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common:2.3.5] /home/nabil/.gradle/caches/transforms-2/files-2.1/e83cb44424281dcb525645ba2472ea0a/navigation-common-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.3.5] /home/nabil/.gradle/caches/transforms-2/files-2.1/e83cb44424281dcb525645ba2472ea0a/navigation-common-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.7.0-alpha01] /home/nabil/.gradle/caches/transforms-2/files-2.1/470cd1f8fbd9e0061e9734ab02d3ec47/core-1.7.0-alpha01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.7.0-alpha01] /home/nabil/.gradle/caches/transforms-2/files-2.1/470cd1f8fbd9e0061e9734ab02d3ec47/core-1.7.0-alpha01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /home/nabil/.gradle/caches/transforms-2/files-2.1/d149e89921ee1e9cb0ea3e25907de376/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /home/nabil/.gradle/caches/transforms-2/files-2.1/d149e89921ee1e9cb0ea3e25907de376/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/nabil/.gradle/caches/transforms-2/files-2.1/298ac33f6fae988db5ac7bd88b1bfb59/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/nabil/.gradle/caches/transforms-2/files-2.1/298ac33f6fae988db5ac7bd88b1bfb59/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.1] /home/nabil/.gradle/caches/transforms-2/files-2.1/d1ec0ac28caa7265b604a129086f348e/jetified-lifecycle-livedata-core-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.1] /home/nabil/.gradle/caches/transforms-2/files-2.1/d1ec0ac28caa7265b604a129086f348e/jetified-lifecycle-livedata-core-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [org.jetbrains.anko:anko-commons:0.10.8] /home/nabil/.gradle/caches/transforms-2/files-2.1/5a1852bbff40eea3388769419bc39366/jetified-anko-commons-0.10.8/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:anko-commons:0.10.8] /home/nabil/.gradle/caches/transforms-2/files-2.1/5a1852bbff40eea3388769419bc39366/jetified-anko-commons-0.10.8/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:commons-base:0.10.8] /home/nabil/.gradle/caches/transforms-2/files-2.1/550d70c7fbbe5531b0eff449458fccf3/jetified-commons-base-0.10.8/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:commons-base:0.10.8] /home/nabil/.gradle/caches/transforms-2/files-2.1/550d70c7fbbe5531b0eff449458fccf3/jetified-commons-base-0.10.8/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/86544cd5b6f76796ade884e0c4cfaa13/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/86544cd5b6f76796ade884e0c4cfaa13/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /home/nabil/.gradle/caches/transforms-2/files-2.1/fbe68c6ea9319904580965e291a15846/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /home/nabil/.gradle/caches/transforms-2/files-2.1/fbe68c6ea9319904580965e291a15846/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/249962d2f8fb28f531802bcef5acfc44/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/249962d2f8fb28f531802bcef5acfc44/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /home/nabil/.gradle/caches/transforms-2/files-2.1/b9e49eba49338ee7143c93b9357ac4df/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /home/nabil/.gradle/caches/transforms-2/files-2.1/b9e49eba49338ee7143c93b9357ac4df/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-components:17.0.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/fc977968b810087a0306ce04cbe67e23/jetified-firebase-components-17.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:17.0.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/fc977968b810087a0306ce04cbe67e23/jetified-firebase-components-17.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/6b5ede7b05fc238d038f82011dd26661/jetified-gifdecoder-4.12.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/6b5ede7b05fc238d038f82011dd26661/jetified-gifdecoder-4.12.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/a4ab5594de8feba86dd9c0ee789512ef/exifinterface-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/a4ab5594de8feba86dd9c0ee789512ef/exifinterface-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.3.1] /home/nabil/.gradle/caches/transforms-2/files-2.1/0abcc80ae5701c784d1551c38f45ee62/lifecycle-livedata-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.3.1] /home/nabil/.gradle/caches/transforms-2/files-2.1/0abcc80ae5701c784d1551c38f45ee62/lifecycle-livedata-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /home/nabil/.gradle/caches/transforms-2/files-2.1/18c9e83d4f05b0a132eb846e418d00f9/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /home/nabil/.gradle/caches/transforms-2/files-2.1/18c9e83d4f05b0a132eb846e418d00f9/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/05f49c9969019f3b892c22985ad7eebf/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/05f49c9969019f3b892c22985ad7eebf/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/c418b56d35e4044d7ce834572af6a23a/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/c418b56d35e4044d7ce834572af6a23a/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/5f6f3d9ffe7beadabbf2ae9b87cfdcf3/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/5f6f3d9ffe7beadabbf2ae9b87cfdcf3/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/767fdd786e01af8cdbad2894cf06d1eb/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/767fdd786e01af8cdbad2894cf06d1eb/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/41bca5a30e875e22eac99a8c8131122b/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/41bca5a30e875e22eac99a8c8131122b/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/da0a69187d83518f47a8c80edd545216/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/da0a69187d83518f47a8c80edd545216/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/e3d288c816f4a667e27c5f26473fe732/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/e3d288c816f4a667e27c5f26473fe732/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /home/nabil/projects/temp/autoLibDZ/app/src/main/AndroidManifest.xml
+INJECTED from /home/nabil/projects/temp/autoLibDZ/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from C:\version_final\autoLibDZ\app\src\main\AndroidManifest.xml
-		ADDED from C:\version_final\autoLibDZ\app\src\main\AndroidManifest.xml
-		INJECTED from C:\version_final\autoLibDZ\app\src\main\AndroidManifest.xml
+		INJECTED from /home/nabil/projects/temp/autoLibDZ/app/src/main/AndroidManifest.xml
+		ADDED from /home/nabil/projects/temp/autoLibDZ/app/src/main/AndroidManifest.xml
+		INJECTED from /home/nabil/projects/temp/autoLibDZ/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\version_final\autoLibDZ\app\src\main\AndroidManifest.xml
-		ADDED from C:\version_final\autoLibDZ\app\src\main\AndroidManifest.xml
-		INJECTED from C:\version_final\autoLibDZ\app\src\main\AndroidManifest.xml
+		INJECTED from /home/nabil/projects/temp/autoLibDZ/app/src/main/AndroidManifest.xml
+		ADDED from /home/nabil/projects/temp/autoLibDZ/app/src/main/AndroidManifest.xml
+		INJECTED from /home/nabil/projects/temp/autoLibDZ/app/src/main/AndroidManifest.xml
 uses-feature#0x00020000
-ADDED from [com.google.android.gms:play-services-maps:17.0.1] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\5657dadc132c9e03eb989af690b67a25\jetified-play-services-maps-17.0.1\AndroidManifest.xml:26:5-28:35
+ADDED from [com.google.android.gms:play-services-maps:17.0.1] /home/nabil/.gradle/caches/transforms-2/files-2.1/f61384468b3dbbd7123c8667222bccba/jetified-play-services-maps-17.0.1/AndroidManifest.xml:26:5-28:35
 	android:glEsVersion
-		ADDED from [com.google.android.gms:play-services-maps:17.0.1] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\5657dadc132c9e03eb989af690b67a25\jetified-play-services-maps-17.0.1\AndroidManifest.xml:27:9-41
+		ADDED from [com.google.android.gms:play-services-maps:17.0.1] /home/nabil/.gradle/caches/transforms-2/files-2.1/f61384468b3dbbd7123c8667222bccba/jetified-play-services-maps-17.0.1/AndroidManifest.xml:27:9-41
 	android:required
-		ADDED from [com.google.android.gms:play-services-maps:17.0.1] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\5657dadc132c9e03eb989af690b67a25\jetified-play-services-maps-17.0.1\AndroidManifest.xml:28:9-32
+		ADDED from [com.google.android.gms:play-services-maps:17.0.1] /home/nabil/.gradle/caches/transforms-2/files-2.1/f61384468b3dbbd7123c8667222bccba/jetified-play-services-maps-17.0.1/AndroidManifest.xml:28:9-32
 queries
-ADDED from [com.google.android.gms:play-services-maps:17.0.1] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\5657dadc132c9e03eb989af690b67a25\jetified-play-services-maps-17.0.1\AndroidManifest.xml:30:5-34:15
+ADDED from [com.google.android.gms:play-services-maps:17.0.1] /home/nabil/.gradle/caches/transforms-2/files-2.1/f61384468b3dbbd7123c8667222bccba/jetified-play-services-maps-17.0.1/AndroidManifest.xml:30:5-34:15
 package#com.google.android.apps.maps
-ADDED from [com.google.android.gms:play-services-maps:17.0.1] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\5657dadc132c9e03eb989af690b67a25\jetified-play-services-maps-17.0.1\AndroidManifest.xml:33:9-64
+ADDED from [com.google.android.gms:play-services-maps:17.0.1] /home/nabil/.gradle/caches/transforms-2/files-2.1/f61384468b3dbbd7123c8667222bccba/jetified-play-services-maps-17.0.1/AndroidManifest.xml:33:9-64
 	android:name
-		ADDED from [com.google.android.gms:play-services-maps:17.0.1] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\5657dadc132c9e03eb989af690b67a25\jetified-play-services-maps-17.0.1\AndroidManifest.xml:33:18-61
+		ADDED from [com.google.android.gms:play-services-maps:17.0.1] /home/nabil/.gradle/caches/transforms-2/files-2.1/f61384468b3dbbd7123c8667222bccba/jetified-play-services-maps-17.0.1/AndroidManifest.xml:33:18-61
 uses-library#org.apache.http.legacy
-ADDED from [com.google.android.gms:play-services-maps:17.0.1] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\5657dadc132c9e03eb989af690b67a25\jetified-play-services-maps-17.0.1\AndroidManifest.xml:39:9-41:40
+ADDED from [com.google.android.gms:play-services-maps:17.0.1] /home/nabil/.gradle/caches/transforms-2/files-2.1/f61384468b3dbbd7123c8667222bccba/jetified-play-services-maps-17.0.1/AndroidManifest.xml:39:9-41:40
 	android:required
-		ADDED from [com.google.android.gms:play-services-maps:17.0.1] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\5657dadc132c9e03eb989af690b67a25\jetified-play-services-maps-17.0.1\AndroidManifest.xml:41:13-37
+		ADDED from [com.google.android.gms:play-services-maps:17.0.1] /home/nabil/.gradle/caches/transforms-2/files-2.1/f61384468b3dbbd7123c8667222bccba/jetified-play-services-maps-17.0.1/AndroidManifest.xml:41:13-37
 	android:name
-		ADDED from [com.google.android.gms:play-services-maps:17.0.1] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\5657dadc132c9e03eb989af690b67a25\jetified-play-services-maps-17.0.1\AndroidManifest.xml:40:13-50
-activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:17.5.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\14b1faa48bb5bf5b6a196b8237ea9915\jetified-play-services-base-17.5.0\AndroidManifest.xml:23:9-26:75
+		ADDED from [com.google.android.gms:play-services-maps:17.0.1] /home/nabil/.gradle/caches/transforms-2/files-2.1/f61384468b3dbbd7123c8667222bccba/jetified-play-services-maps-17.0.1/AndroidManifest.xml:40:13-50
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-storage-ktx:20.0.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/2154d9bcd78cc9340c1f66d7e1e550b9/jetified-firebase-storage-ktx-20.0.0/AndroidManifest.xml:12:9-18:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.0.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/bacb4074df5d3ab602315dad9d2eb950/jetified-firebase-common-ktx-20.0.0/AndroidManifest.xml:12:9-18:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.0.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/bacb4074df5d3ab602315dad9d2eb950/jetified-firebase-common-ktx-20.0.0/AndroidManifest.xml:12:9-18:19
+MERGED from [com.google.firebase:firebase-storage:20.0.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/aeb855d6b4c870e14c7c8378b4d3914f/jetified-firebase-storage-20.0.0/AndroidManifest.xml:30:9-36:19
+MERGED from [com.google.firebase:firebase-storage:20.0.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/aeb855d6b4c870e14c7c8378b4d3914f/jetified-firebase-storage-20.0.0/AndroidManifest.xml:30:9-36:19
+MERGED from [com.google.firebase:firebase-common:20.0.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/13af2d76a080fe30ca69802e5da8cab8/jetified-firebase-common-20.0.0/AndroidManifest.xml:33:9-37:35
+MERGED from [com.google.firebase:firebase-common:20.0.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/13af2d76a080fe30ca69802e5da8cab8/jetified-firebase-common-20.0.0/AndroidManifest.xml:33:9-37:35
 	android:exported
-		ADDED from [com.google.android.gms:play-services-base:17.5.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\14b1faa48bb5bf5b6a196b8237ea9915\jetified-play-services-base-17.5.0\AndroidManifest.xml:25:13-37
-	android:theme
-		ADDED from [com.google.android.gms:play-services-base:17.5.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\14b1faa48bb5bf5b6a196b8237ea9915\jetified-play-services-base-17.5.0\AndroidManifest.xml:26:13-72
+		ADDED from [com.google.firebase:firebase-storage-ktx:20.0.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/2154d9bcd78cc9340c1f66d7e1e550b9/jetified-firebase-storage-ktx-20.0.0/AndroidManifest.xml:14:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/13af2d76a080fe30ca69802e5da8cab8/jetified-firebase-common-20.0.0/AndroidManifest.xml:37:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/13af2d76a080fe30ca69802e5da8cab8/jetified-firebase-common-20.0.0/AndroidManifest.xml:35:13-43
 	android:name
-		ADDED from [com.google.android.gms:play-services-base:17.5.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\14b1faa48bb5bf5b6a196b8237ea9915\jetified-play-services-base-17.5.0\AndroidManifest.xml:24:13-79
-meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:17.5.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\b9841504fae6f64784cf91693aba9c74\jetified-play-services-basement-17.5.0\AndroidManifest.xml:23:9-25:69
+		ADDED from [com.google.firebase:firebase-storage-ktx:20.0.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/2154d9bcd78cc9340c1f66d7e1e550b9/jetified-firebase-storage-ktx-20.0.0/AndroidManifest.xml:13:13-84
+meta-data#com.google.firebase.components:com.google.firebase.storage.ktx.FirebaseStorageKtxRegistrar
+ADDED from [com.google.firebase:firebase-storage-ktx:20.0.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/2154d9bcd78cc9340c1f66d7e1e550b9/jetified-firebase-storage-ktx-20.0.0/AndroidManifest.xml:15:13-17:85
 	android:value
-		ADDED from [com.google.android.gms:play-services-basement:17.5.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\b9841504fae6f64784cf91693aba9c74\jetified-play-services-basement-17.5.0\AndroidManifest.xml:25:13-66
+		ADDED from [com.google.firebase:firebase-storage-ktx:20.0.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/2154d9bcd78cc9340c1f66d7e1e550b9/jetified-firebase-storage-ktx-20.0.0/AndroidManifest.xml:17:17-82
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:17.5.0] C:\Users\ASUS UX510U\home\gradle-6.7.1\caches\transforms-2\files-2.1\b9841504fae6f64784cf91693aba9c74\jetified-play-services-basement-17.5.0\AndroidManifest.xml:24:13-58
+		ADDED from [com.google.firebase:firebase-storage-ktx:20.0.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/2154d9bcd78cc9340c1f66d7e1e550b9/jetified-firebase-storage-ktx-20.0.0/AndroidManifest.xml:16:17-122
+meta-data#com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar
+ADDED from [com.google.firebase:firebase-common-ktx:20.0.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/bacb4074df5d3ab602315dad9d2eb950/jetified-firebase-common-ktx-20.0.0/AndroidManifest.xml:15:13-17:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common-ktx:20.0.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/bacb4074df5d3ab602315dad9d2eb950/jetified-firebase-common-ktx-20.0.0/AndroidManifest.xml:17:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common-ktx:20.0.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/bacb4074df5d3ab602315dad9d2eb950/jetified-firebase-common-ktx-20.0.0/AndroidManifest.xml:16:17-113
+meta-data#com.google.firebase.components:com.google.firebase.storage.StorageRegistrar
+ADDED from [com.google.firebase:firebase-storage:20.0.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/aeb855d6b4c870e14c7c8378b4d3914f/jetified-firebase-storage-20.0.0/AndroidManifest.xml:33:13-35:85
+	android:value
+		ADDED from [com.google.firebase:firebase-storage:20.0.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/aeb855d6b4c870e14c7c8378b4d3914f/jetified-firebase-storage-20.0.0/AndroidManifest.xml:35:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-storage:20.0.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/aeb855d6b4c870e14c7c8378b4d3914f/jetified-firebase-storage-20.0.0/AndroidManifest.xml:34:17-107
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:20.0.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/13af2d76a080fe30ca69802e5da8cab8/jetified-firebase-common-20.0.0/AndroidManifest.xml:26:9-31:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/13af2d76a080fe30ca69802e5da8cab8/jetified-firebase-common-20.0.0/AndroidManifest.xml:28:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/13af2d76a080fe30ca69802e5da8cab8/jetified-firebase-common-20.0.0/AndroidManifest.xml:30:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/13af2d76a080fe30ca69802e5da8cab8/jetified-firebase-common-20.0.0/AndroidManifest.xml:29:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/13af2d76a080fe30ca69802e5da8cab8/jetified-firebase-common-20.0.0/AndroidManifest.xml:31:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/13af2d76a080fe30ca69802e5da8cab8/jetified-firebase-common-20.0.0/AndroidManifest.xml:27:13-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.5.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/276d8a70bdaf7275f1ba97e24988ad1b/jetified-play-services-base-17.5.0/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.5.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/276d8a70bdaf7275f1ba97e24988ad1b/jetified-play-services-base-17.5.0/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.5.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/276d8a70bdaf7275f1ba97e24988ad1b/jetified-play-services-base-17.5.0/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.5.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/276d8a70bdaf7275f1ba97e24988ad1b/jetified-play-services-base-17.5.0/AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.5.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/80dbfffb0b8f41171977e845c58eaeea/jetified-play-services-basement-17.5.0/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.5.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/80dbfffb0b8f41171977e845c58eaeea/jetified-play-services-basement-17.5.0/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.5.0] /home/nabil/.gradle/caches/transforms-2/files-2.1/80dbfffb0b8f41171977e845c58eaeea/jetified-play-services-basement-17.5.0/AndroidManifest.xml:24:13-58

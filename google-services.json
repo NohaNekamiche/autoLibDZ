@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "780620766184",
+    "project_id": "projet-2cs",
+    "storage_bucket": "projet-2cs.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:780620766184:android:01434efb158e5e6d0d225d",
+        "android_client_info": {
+          "package_name": "com.clovertech.autolibdz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "780620766184-v0tn4oni21u9111ri2uef40e6ee8c6nn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBs3kIYYtaI7BqtORE-TBmZUHU2hk-OUX8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "780620766184-v0tn4oni21u9111ri2uef40e6ee8c6nn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
