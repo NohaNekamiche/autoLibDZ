@@ -21,6 +21,7 @@ import com.clovertech.autolibdz.R
 import com.clovertech.autolibdz.ViewModel.MainViewModelFactoryCard
 import com.clovertech.autolibdz.ViewModel.RentalViewModel
 import com.clovertech.autolibdz.ViewModel.RentalViewModelFactory
+import com.clovertech.autolibdz.activities.FindYourCarActivity
 import com.clovertech.autolibdz.repository.PaymentRepository
 import com.clovertech.autolibdz.repository.RentalRepository
 import com.clovertech.autolibdz.ui.promo.idCodePromo
@@ -127,10 +128,10 @@ class ConfirmPayFragment : BottomSheetDialogFragment() {
                     Log.d("clicked",clicked.toString())
                     if(clicked=="true"){
                         startActivity(Intent(requireActivity(),
-                            EndLocationActivity::class.java))
+                            FindYourCarActivity::class.java))
                     }
                     startActivity(Intent(requireActivity(),
-                        EndLocationActivity::class.java))
+                        FindYourCarActivity::class.java))
                  /*   val builder = AlertDialog.Builder(activity!!)
                     //set title for alert dialog
                     builder.setTitle(R.string.SucdialogTitle)
