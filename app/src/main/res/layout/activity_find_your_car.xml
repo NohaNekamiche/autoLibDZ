@@ -5,29 +5,61 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activities.FindYourCarActivity">
+    tools:context=".FindYourCarActivity">
 
     <TextView
         android:id="@+id/association_status_id"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
         android:layout_centerHorizontal="true"
-        android:text="Association en cours ..."
-        android:textSize="20sp"
+        android:layout_marginTop="30dp"
+        android:text="Non associé"
         android:textColor="@color/dark_grey"
-        android:textStyle="bold"/>
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/association_status_id"
+        android:layout_marginTop="25dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/associateButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/button3"
+            android:layout_alignBottom="@+id/button3"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="0dp"
+            android:layout_toStartOf="@+id/button3"
+            android:layout_weight="1"
+            android:text="Associate" />
+
+        <Button
+            android:id="@+id/disassociateButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/association_status_id"
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:text="Disassociate" />
+    </LinearLayout>
 
     <com.skyfishjy.library.RippleBackground
-        android:id="@+id/rippleBackground"
+        android:id="@+id/content"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginBottom="70dp"
-        android:layout_below="@id/association_status_id"
         app:rb_color="#fedd7a"
+        app:rb_duration="3000"
         app:rb_radius="32dp"
         app:rb_rippleAmount="4"
-        app:rb_duration="3000"
         app:rb_scale="6">
 
         <ImageView
@@ -35,15 +67,7 @@
             android:layout_width="64dp"
             android:layout_height="64dp"
             android:layout_centerInParent="true"
-            android:src="@drawable/ic_car"
-            app:tint="@color/dark_grey"/>
-
+            android:src="@drawable/ic_car" />
     </com.skyfishjy.library.RippleBackground>
 
-    <include
-        android:id="@+id/bottom_bar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        layout="@layout/bottom_bar_layout"
-        android:layout_alignParentBottom="true"/>
 </RelativeLayout>

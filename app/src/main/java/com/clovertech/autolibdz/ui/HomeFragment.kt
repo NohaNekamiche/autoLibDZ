@@ -95,15 +95,13 @@ class HomeFragment : Fragment() , OnMapReadyCallback , GoogleMap.OnMarkerClickLi
 //                    Toast.makeText(requireContext(), "Address:- " + addresses[0].featureName + addresses[0].adminArea + addresses[0].locality, Toast.LENGTH_LONG).show()
                 }
 
-                if (bornes != null) {
-                    val borne = closestBorne(location)
-                    adapter.selectedBorne.value = borne
-                    addresses = geo.getFromLocation(borne.latitude.toDouble(),
-                        borne.longitude.toDouble(), 1)
-                    if (addresses.isNotEmpty()) {
-                        borne_name.text = borne.city
-                        borne_address.text = addresses[0].locality
-                    }
+                val borne = closestBorne(location)
+                adapter.selectedBorne.value = borne
+                addresses = geo.getFromLocation(borne.latitude.toDouble(),
+                    borne.longitude.toDouble(), 1)
+                if (addresses.isNotEmpty()) {
+                    borne_name.text = borne.city
+                    borne_address.text = addresses[0].locality
                 }
 
 
@@ -294,24 +292,6 @@ class HomeFragment : Fragment() , OnMapReadyCallback , GoogleMap.OnMarkerClickLi
         mLocationRequest.fastestInterval = 120000
         mLocationRequest.priority = LocationRequest.PRIORITY_BALANCED_POWER_ACCURACY
 
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
-            if (ContextCompat.checkSelfPermission(
-                    requireContext(),
-                    Manifest.permission.ACCESS_FINE_LOCATION
-                ) == PackageManager.PERMISSION_GRANTED
-            ) {
-                //Location Permission already granted
-                mFusedLocationClient?.requestLocationUpdates(mLocationRequest, mLocationCallback, Looper.myLooper()!!)
-                googleMap.isMyLocationEnabled = true
-            } else {
-                //Request Location Permission
-                checkLocationPermission()
-            }
-        } else {
-            mFusedLocationClient?.requestLocationUpdates(mLocationRequest, mLocationCallback, Looper.myLooper()!!)
-            googleMap.isMyLocationEnabled = true
-        }
-
 
         val call = RetrofitInstance.borneApi.getBornes()
         call.enqueue(object: Callback<List<Borne>> {
@@ -329,6 +309,7 @@ class HomeFragment : Fragment() , OnMapReadyCallback , GoogleMap.OnMarkerClickLi
                     if (borne != null) {
                         bornes = borne
                         adapter.setBornes(bornes!!)
+
                         bornes?.forEach {
                             val borneCoordinates = LatLng(it.latitude.toString().toDouble(), it.longitude.toString().toDouble())
                             googleMap.addMarker(
@@ -336,6 +317,24 @@ class HomeFragment : Fragment() , OnMapReadyCallback , GoogleMap.OnMarkerClickLi
                                             .position(borneCoordinates)
                                             .title("Wilaya: ${it.city}")
                             )
+                        }
+
+                        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+                            if (ContextCompat.checkSelfPermission(
+                                    requireContext(),
+                                    Manifest.permission.ACCESS_FINE_LOCATION
+                                ) == PackageManager.PERMISSION_GRANTED
+                            ) {
+                                //Location Permission already granted
+                                mFusedLocationClient?.requestLocationUpdates(mLocationRequest, mLocationCallback, Looper.myLooper()!!)
+                                googleMap.isMyLocationEnabled = true
+                            } else {
+                                //Request Location Permission
+                                checkLocationPermission()
+                            }
+                        } else {
+                            mFusedLocationClient?.requestLocationUpdates(mLocationRequest, mLocationCallback, Looper.myLooper()!!)
+                            googleMap.isMyLocationEnabled = true
                         }
                     }
                 } else {

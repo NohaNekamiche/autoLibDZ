@@ -14,6 +14,7 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import com.clovertech.autolibdz.activities.HomeActivity
 import com.clovertech.autolibdz.R
+import com.clovertech.autolibdz.activities.FindYourCarActivity
 import com.clovertech.autolibdz.activities.password.ResetPasswordActivity
 import com.clovertech.autolibdz.ui.promo.idTenantHelper
 import com.clovertech.autolibdz.utils.Constants
@@ -58,12 +59,17 @@ class LoginActivity : AppCompatActivity() , View.OnClickListener {
         viewModel = ViewModelProvider(this, viewModelFactory)
                 .get(MainViewModel::class.java)
 
-        startActivity(Intent(this, HomeActivity::class.java))
+        val intent = Intent(this, FindYourCarActivity::class.java)
+        intent.putExtra("idVehicule", 1)
+
+        startActivity(intent)
+
+//        startActivity(Intent(this, HomeActivity::class.java))
 
         if (email_edit_txt.text.toString() == ""){
-            email_edit_txt.setError("Email required !")
+            email_edit_txt.error = "Email required !"
         }else if (password_edit_txt.text.toString() == ""){
-            password_edit_txt.setError("Password required !")
+            password_edit_txt.error = "Password required !"
         } else {
             var authentication = Authentication(email_edit_txt.text.toString(), password_edit_txt.text.toString())
             viewModel.pushAuthentication(authentication)
