@@ -2464,6 +2464,7 @@ id photo_personnelle_layout
 id photo_profile_layout
 id pin
 id plus
+id points
 id position
 id postLayout
 id prenom

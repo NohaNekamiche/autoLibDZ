@@ -20,12 +20,12 @@
         "source": "C:\\version_final\\autoLibDZ\\app\\src\\main\\res\\layout\\fragment_reset_password1.xml"
     },
     {
-        "merged": "C:\\version_final\\autoLibDZ\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_location.xml.flat",
-        "source": "C:\\version_final\\autoLibDZ\\app\\src\\main\\res\\drawable\\ic_location.xml"
-    },
-    {
         "merged": "C:\\version_final\\autoLibDZ\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_reset_password2.xml.flat",
         "source": "C:\\version_final\\autoLibDZ\\app\\src\\main\\res\\layout\\fragment_reset_password2.xml"
+    },
+    {
+        "merged": "C:\\version_final\\autoLibDZ\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_location.xml.flat",
+        "source": "C:\\version_final\\autoLibDZ\\app\\src\\main\\res\\drawable\\ic_location.xml"
     },
     {
         "merged": "C:\\version_final\\autoLibDZ\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_side_nav_bar.xml.flat",
@@ -48,12 +48,12 @@
         "source": "C:\\version_final\\autoLibDZ\\app\\src\\main\\res\\drawable-v24\\ic_lock.xml"
     },
     {
-        "merged": "C:\\version_final\\autoLibDZ\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_view_background.xml.flat",
-        "source": "C:\\version_final\\autoLibDZ\\app\\src\\main\\res\\drawable-v24\\view_background.xml"
-    },
-    {
         "merged": "C:\\version_final\\autoLibDZ\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_key.xml.flat",
         "source": "C:\\version_final\\autoLibDZ\\app\\src\\main\\res\\drawable-v24\\ic_key.xml"
+    },
+    {
+        "merged": "C:\\version_final\\autoLibDZ\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_view_background.xml.flat",
+        "source": "C:\\version_final\\autoLibDZ\\app\\src\\main\\res\\drawable-v24\\view_background.xml"
     },
     {
         "merged": "C:\\version_final\\autoLibDZ\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_rating.png.flat",
@@ -96,28 +96,28 @@
         "source": "C:\\version_final\\autoLibDZ\\app\\src\\main\\res\\layout\\activity_login.xml"
     },
     {
-        "merged": "C:\\version_final\\autoLibDZ\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_baseline_star_24.xml.flat",
-        "source": "C:\\version_final\\autoLibDZ\\app\\src\\main\\res\\drawable-v24\\ic_baseline_star_24.xml"
-    },
-    {
         "merged": "C:\\version_final\\autoLibDZ\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24__rounded_10dp_light_grey.xml.flat",
         "source": "C:\\version_final\\autoLibDZ\\app\\src\\main\\res\\drawable-v24\\_rounded_10dp_light_grey.xml"
+    },
+    {
+        "merged": "C:\\version_final\\autoLibDZ\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_baseline_star_24.xml.flat",
+        "source": "C:\\version_final\\autoLibDZ\\app\\src\\main\\res\\drawable-v24\\ic_baseline_star_24.xml"
     },
     {
         "merged": "C:\\version_final\\autoLibDZ\\app\\build\\intermediates\\res\\merged\\debug\\drawable__rounded_10dp_active.xml.flat",
         "source": "C:\\version_final\\autoLibDZ\\app\\src\\main\\res\\drawable\\_rounded_10dp_active.xml"
     },
     {
-        "merged": "C:\\version_final\\autoLibDZ\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\version_final\\autoLibDZ\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+        "merged": "C:\\version_final\\autoLibDZ\\app\\build\\intermediates\\res\\merged\\debug\\raw_lf30_editor_i2vbfsvm.json.flat",
+        "source": "C:\\version_final\\autoLibDZ\\app\\src\\main\\res\\raw\\lf30_editor_i2vbfsvm.json"
     },
     {
         "merged": "C:\\version_final\\autoLibDZ\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
         "source": "C:\\version_final\\autoLibDZ\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\version_final\\autoLibDZ\\app\\build\\intermediates\\res\\merged\\debug\\raw_lf30_editor_i2vbfsvm.json.flat",
-        "source": "C:\\version_final\\autoLibDZ\\app\\src\\main\\res\\raw\\lf30_editor_i2vbfsvm.json"
+        "merged": "C:\\version_final\\autoLibDZ\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\version_final\\autoLibDZ\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
         "merged": "C:\\version_final\\autoLibDZ\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
@@ -148,16 +148,16 @@
         "source": "C:\\version_final\\autoLibDZ\\app\\src\\main\\res\\navigation\\mobile_navigation.xml"
     },
     {
-        "merged": "C:\\version_final\\autoLibDZ\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "C:\\version_final\\autoLibDZ\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+        "merged": "C:\\version_final\\autoLibDZ\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_phone_call.xml.flat",
+        "source": "C:\\version_final\\autoLibDZ\\app\\src\\main\\res\\drawable\\ic_phone_call.xml"
     },
     {
         "merged": "C:\\version_final\\autoLibDZ\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_email.xml.flat",
         "source": "C:\\version_final\\autoLibDZ\\app\\src\\main\\res\\drawable\\ic_email.xml"
     },
     {
-        "merged": "C:\\version_final\\autoLibDZ\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_phone_call.xml.flat",
-        "source": "C:\\version_final\\autoLibDZ\\app\\src\\main\\res\\drawable\\ic_phone_call.xml"
+        "merged": "C:\\version_final\\autoLibDZ\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\version_final\\autoLibDZ\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
         "merged": "C:\\version_final\\autoLibDZ\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_arrow_back.xml.flat",
@@ -208,12 +208,12 @@
         "source": "C:\\version_final\\autoLibDZ\\app\\src\\main\\res\\drawable-v24\\ic_baseline_check_box_outline_blank_24.xml"
     },
     {
-        "merged": "C:\\version_final\\autoLibDZ\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_find_your_car.xml.flat",
-        "source": "C:\\version_final\\autoLibDZ\\app\\src\\main\\res\\layout\\activity_find_your_car.xml"
-    },
-    {
         "merged": "C:\\version_final\\autoLibDZ\\app\\build\\intermediates\\res\\merged\\debug\\drawable__rounded_top_20dp_white.xml.flat",
         "source": "C:\\version_final\\autoLibDZ\\app\\src\\main\\res\\drawable\\_rounded_top_20dp_white.xml"
+    },
+    {
+        "merged": "C:\\version_final\\autoLibDZ\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_find_your_car.xml.flat",
+        "source": "C:\\version_final\\autoLibDZ\\app\\src\\main\\res\\layout\\activity_find_your_car.xml"
     },
     {
         "merged": "C:\\version_final\\autoLibDZ\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_event.xml.flat",

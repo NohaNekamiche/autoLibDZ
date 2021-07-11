@@ -48,7 +48,7 @@ class PromoFragment : BottomSheetDialogFragment() {
         var priceReduHelper=price
         priceReduHelper.setText("0 DA")
         var totalprice= arguments?.getInt("totalprice")
-
+        var pointHelper=points
         val api= PromoApi()
         val repository= PromoRepository(api)
         val promo= PromoViewModelFactory(repository)
@@ -60,7 +60,7 @@ class PromoFragment : BottomSheetDialogFragment() {
                 it.setHasFixedSize(true)
                 it.adapter= totalprice?.let { it1 ->
                     PromoAdapter(requireContext(),promoList,priceReduHelper,
-                        it1
+                        it1,pointHelper
                     )
                 }
             }
