@@ -2395,7 +2395,6 @@ id name
 id nav_card
 id nav_controller_view_tag
 id nav_facture
-id nav_gallery
 id nav_header_email
 id nav_header_name
 id nav_header_profile_pic
@@ -2409,6 +2408,7 @@ id nav_promo
 id nav_signals
 id nav_slideshow
 id nav_sub
+id nav_to_list_cars
 id nav_to_payment
 id nav_to_signal
 id nav_view
@@ -2464,6 +2464,7 @@ id photo_personnelle_layout
 id photo_profile_layout
 id pin
 id plus
+id points
 id position
 id postLayout
 id prenom

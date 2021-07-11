@@ -1,6 +1,7 @@
 package com.clovertech.autolibdz.ui.listcars
 
 import android.os.Bundle
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -15,12 +16,14 @@ import com.clovertech.autolibdz.R
 import com.clovertech.autolibdz.ViewModel.ViewModelCars
 import com.clovertech.autolibdz.ViewModel.ViewModelCarsFactory
 import com.clovertech.autolibdz.repository.CarsRepository
+import com.clovertech.autolibdz.utils.Constants
 import kotlinx.android.synthetic.main.fragment_list_car.*
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 
 class ListCarsFragment : Fragment() {
+
 
     private lateinit var liscarsViewMddel: ListCarsViewModel
     private lateinit var viewModel : ViewModelCars
@@ -44,31 +47,14 @@ class ListCarsFragment : Fragment() {
         val carsApi=CarsApi()
         val repository=CarsRepository(carsApi)
 
-
-        CoroutineScope(Dispatchers.Main).launch{
-            val response=repository.getCarsByStat("available",2)
-            if(!response.isEmpty()){
-                Toast.makeText(
-                    activity,
-                    "prix: ${response[0].unitPricePerDay}",
-
-                    Toast.LENGTH_LONG
-                ).show()
-            }   else {
-                Toast.makeText(
-                    activity,
-                    "Error Occurred: ${response.isEmpty()}",
-                    Toast.LENGTH_LONG
-                ).show()
-            }
-
-        }
         carsFactory=ViewModelCarsFactory(repository)
         viewModel=ViewModelProvider(this,carsFactory).get(ViewModelCars::class.java)
 
         /* list_cars.layoutManager = LinearLayoutManager(activity)
          list_cars.adapter = adapter*/
-        viewModel.getListCarsByStat("available",2)
+        Log.d("idbornDefault", Constants.idbornDefault.toString())
+        viewModel.getListCarsByStat("available", 15)
+        Log.d("push",viewModel.carsByStat.toString())
         // Toast.makeText(requireContext(),viewModel.carsByStat.toString(),Toast.LENGTH_LONG)
         viewModel.carsByStat.observe(viewLifecycleOwner, Observer { cars->
             list_cars.also {
@@ -80,6 +66,8 @@ class ListCarsFragment : Fragment() {
             }
         })
     }
+
+
 
 
 

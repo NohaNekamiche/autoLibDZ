@@ -2,7 +2,10 @@ package com.clovertech.autolibdz.ui.card
 
 import ViewModel.ViewModelCard
 import android.annotation.SuppressLint
+import android.app.AlertDialog
+import android.content.Context
 import android.content.Intent
+import android.content.SharedPreferences
 import android.os.Bundle
 import android.util.Log
 import android.view.LayoutInflater
@@ -29,7 +32,7 @@ class ConfirmPayFragment : BottomSheetDialogFragment() {
 
 
     private lateinit var viewModel : ViewModelCard
-
+    var clicked="false"
     override fun onCreateView(
             inflater: LayoutInflater,
             container: ViewGroup?,
@@ -97,7 +100,32 @@ class ConfirmPayFragment : BottomSheetDialogFragment() {
                     Log.e("push",response.toString())
                     Log.e("push",response.raw().toString())
                     this.dismiss()
-                    startActivity(Intent(requireContext(),
+                    val preferences: SharedPreferences = requireActivity().getSharedPreferences(Constants.APP_PREFS, Context.MODE_PRIVATE)
+
+                    preferences.edit().putString("amount",amount).apply()
+                    // dialog msg
+
+                    val builder = AlertDialog.Builder(activity!!)
+                    builder.setTitle(R.string.SucdialogTitle)
+                    builder.setMessage(R.string.SucdialogMessage)
+                    builder.setIconAttribute(R.drawable.ic_baseline_done_outline_24)
+
+                    builder.setPositiveButton("Ok"){dialogInterface, which ->
+                        Log.d("Ok","Ok")
+                        clicked="true"
+
+                    }
+                    builder.setNeutralButton("Cancel"){dialogInterface , which ->
+                    }
+                    val alertDialog: AlertDialog = builder.create()
+                    alertDialog.setCancelable(false)
+                    alertDialog.show()
+                    Log.d("clicked",clicked.toString())
+                    if(clicked=="true"){
+                        startActivity(Intent(requireActivity(),
+                            EndLocationActivity::class.java))
+                    }
+                    startActivity(Intent(requireActivity(),
                         EndLocationActivity::class.java))
                  /*   val builder = AlertDialog.Builder(activity!!)
                     //set title for alert dialog

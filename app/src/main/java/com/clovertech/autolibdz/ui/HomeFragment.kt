@@ -24,6 +24,7 @@ import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
 import androidx.core.widget.addTextChangedListener
 import androidx.fragment.app.Fragment
+import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.clovertech.autolibdz.Adapters.BorneAdapter
 import com.clovertech.autolibdz.Adapters.ImageVehiculeAdapter
@@ -196,8 +197,9 @@ class HomeFragment : Fragment() , OnMapReadyCallback , GoogleMap.OnMarkerClickLi
                 moveSearchPositionDialog()
             }
             R.id.checked_park -> {
-
-                val borne = adapter.selectedBorne.value
+              //  startActivity(Intent(context, CarsActivity::class.java))
+                findNavController().navigate(R.id.nav_to_list_cars)
+               /* val borne = adapter.selectedBorne.value
 
                 if (borne != null) {
                     park_name.text = borne.city
@@ -238,7 +240,7 @@ class HomeFragment : Fragment() , OnMapReadyCallback , GoogleMap.OnMarkerClickLi
                 } else {
                     Log.e("no borne", "no selected borne found")
                 }
-
+*/
 
             }
             R.id.search_position -> {
