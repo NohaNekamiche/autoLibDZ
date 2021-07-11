@@ -1,13 +1,16 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.navigation:navigation-fragment-ktx:2.3.5@aar">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d6d489ee4931162b21c6d3b9d412a2f7/navigation-fragment-ktx-2.3.5/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ca641701d22bfc46308e1bfc6ffed4a3/navigation-fragment-ktx-2.3.5/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ca641701d22bfc46308e1bfc6ffed4a3/navigation-fragment-ktx-2.3.5/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ca641701d22bfc46308e1bfc6ffed4a3/navigation-fragment-ktx-2.3.5/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/home/gradle-6.7.1/caches/transforms-2/files-2.1/b5f458d0a6cb0ffe8234f8af04d9b969/navigation-fragment-ktx-2.3.5/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/home/gradle-6.7.1/caches/transforms-2/files-2.1/b5f458d0a6cb0ffe8234f8af04d9b969/navigation-fragment-ktx-2.3.5/res" />
+      <root url="file://$USER_HOME$/home/gradle-6.7.1/caches/transforms-2/files-2.1/b5f458d0a6cb0ffe8234f8af04d9b969/navigation-fragment-ktx-2.3.5/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/50267a48e3110ef94ff3778a5c545d92/navigation-fragment-ktx-2.3.5/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/50267a48e3110ef94ff3778a5c545d92/navigation-fragment-ktx-2.3.5/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/50267a48e3110ef94ff3778a5c545d92/navigation-fragment-ktx-2.3.5/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
+      <root url="jar://$USER_HOME$/home/gradle-6.7.1/caches/modules-2/files-2.1/androidx.navigation/navigation-fragment-ktx/2.3.5/9bebacd34921c1dd65c0cf5ceb32f70e8c7b17b9/navigation-fragment-ktx-2.3.5-sources.jar!/" />
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.navigation/navigation-fragment-ktx/2.3.5/9bebacd34921c1dd65c0cf5ceb32f70e8c7b17b9/navigation-fragment-ktx-2.3.5-sources.jar!/" />
     </SOURCES>
   </library>

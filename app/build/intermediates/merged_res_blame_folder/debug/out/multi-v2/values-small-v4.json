@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\AndroidProjects\\AutoloLib-Lamia\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-small-v4\\values-small-v4.xml",
+            "outputFile": "/home/nabil/projects/temp/autoLibDZ/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-small-v4/values-small-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\hp\\.gradle\\caches\\transforms-2\\files-2.1\\d73194567eecbe46b5dcc6a753dc8a6a\\material-1.4.0\\res\\values-small-v4\\values-small-v4.xml",
+                    "source": "/home/nabil/.gradle/caches/transforms-2/files-2.1/43f5dbb407f57f1b486390bdbaea29b7/material-1.4.0/res/values-small-v4/values-small-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

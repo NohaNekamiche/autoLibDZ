@@ -1,13 +1,16 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.fragment:fragment-ktx:1.2.4@aar">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f0d4cf6baf3292815256750955bb0a91/jetified-fragment-ktx-1.2.4/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/abe9ea84a69a40c40da99511b3affa18/jetified-fragment-ktx-1.2.4/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/abe9ea84a69a40c40da99511b3affa18/jetified-fragment-ktx-1.2.4/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/abe9ea84a69a40c40da99511b3affa18/jetified-fragment-ktx-1.2.4/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/home/gradle-6.7.1/caches/transforms-2/files-2.1/85a72c95e2898476f90b47f72973f2dc/jetified-fragment-ktx-1.2.4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/home/gradle-6.7.1/caches/transforms-2/files-2.1/85a72c95e2898476f90b47f72973f2dc/jetified-fragment-ktx-1.2.4/res" />
+      <root url="file://$USER_HOME$/home/gradle-6.7.1/caches/transforms-2/files-2.1/85a72c95e2898476f90b47f72973f2dc/jetified-fragment-ktx-1.2.4/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4847b5ac4ecd4e20a5be41a2c8d59614/jetified-fragment-ktx-1.2.4/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4847b5ac4ecd4e20a5be41a2c8d59614/jetified-fragment-ktx-1.2.4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4847b5ac4ecd4e20a5be41a2c8d59614/jetified-fragment-ktx-1.2.4/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
+      <root url="jar://$USER_HOME$/home/gradle-6.7.1/caches/modules-2/files-2.1/androidx.fragment/fragment-ktx/1.2.4/1ffa885329ceba2ceb2bea1253d2ca32a0c95fa7/fragment-ktx-1.2.4-sources.jar!/" />
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.fragment/fragment-ktx/1.2.4/1ffa885329ceba2ceb2bea1253d2ca32a0c95fa7/fragment-ktx-1.2.4-sources.jar!/" />
     </SOURCES>
   </library>

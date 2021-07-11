@@ -23,7 +23,8 @@ interface PromoApi {
 
         }
     }
-    @GET("getReductionPrice/{basePrice}/{idPromoCode}")
-    fun getReduPriceByidPromo(@Path("basePrice") basePrice : Int,@Path("idPromoCode") idPromoCode : Int): Call<ReduPriceResponse>
+    @GET("getReductionPrice/{basePrice}/{idPromoCode}/{idTenant}")
+    fun getReduPriceByidPromo(@Path("basePrice") basePrice : Int,@Path("idPromoCode") idPromoCode :
+    Int,@Path("idTenant") idTenant : Int): Call<ReduPriceResponse>
 
 }

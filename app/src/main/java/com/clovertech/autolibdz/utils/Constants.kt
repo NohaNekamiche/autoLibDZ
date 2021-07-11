@@ -17,5 +17,6 @@ class Constants {
         const val AUTH_BASE_URL = "http://54.37.87.85:7000/auth/"
         const val BORNE_BASE_URL = "http://54.37.87.85:7000/bornes/"
         const val ASSOCIATION_BASE_URL = "https://protected-depths-44465.herokuapp.com/"
+        var idbornDefault=0
     }
 }

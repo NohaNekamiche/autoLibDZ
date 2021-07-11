@@ -2081,6 +2081,7 @@ id annuler
 id app_bar
 id arc
 id asConfigured
+id associateButton
 id association_status_id
 id async
 id auto
@@ -2104,6 +2105,7 @@ id bottom_sheet_layout
 id bounce
 id brand
 id button
+id button3
 id buttonPanel
 id cache_measures
 id cancel
@@ -2194,6 +2196,7 @@ id direct
 id disableHome
 id disablePostScroll
 id disableScroll
+id disassociateButton
 id disjoint
 id divider
 id done
@@ -2395,7 +2398,6 @@ id name
 id nav_card
 id nav_controller_view_tag
 id nav_facture
-id nav_gallery
 id nav_header_email
 id nav_header_name
 id nav_header_profile_pic
@@ -2409,6 +2411,7 @@ id nav_promo
 id nav_signals
 id nav_slideshow
 id nav_sub
+id nav_to_list_cars
 id nav_to_payment
 id nav_to_signal
 id nav_view
@@ -2464,6 +2467,7 @@ id photo_personnelle_layout
 id photo_profile_layout
 id pin
 id plus
+id points
 id position
 id postLayout
 id prenom
@@ -2512,7 +2516,6 @@ id rightToLeft
 id right_icon
 id right_side
 id rights
-id rippleBackground
 id rounded
 id row_index_key
 id satellite
@@ -2982,6 +2985,7 @@ string confirm
 string create
 string create_abon
 string date
+string default_web_client_id
 string detrails
 string do_pay
 string dure
@@ -2994,8 +2998,13 @@ string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
 string firstname
+string gcm_defaultSenderId
 string general
 string getting_your_location
+string google_api_key
+string google_app_id
+string google_crash_reporting_api_key
+string google_storage_bucket
 string hello_blank_fragment
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
@@ -3092,6 +3101,7 @@ string please_wait
 string price_hr
 string price_jr
 string prix
+string project_id
 string rating
 string reservation
 string search

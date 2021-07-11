@@ -24,9 +24,9 @@ import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
 import androidx.core.widget.addTextChangedListener
 import androidx.fragment.app.Fragment
+import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.clovertech.autolibdz.Adapters.BorneAdapter
-import com.clovertech.autolibdz.Adapters.ImageVehiculeAdapter
 import com.clovertech.autolibdz.R
 import com.clovertech.autolibdz.activities.CarsActivity
 import com.google.android.gms.location.*
@@ -47,11 +47,11 @@ import kotlinx.android.synthetic.main.custom_search_dialog_yello.view.*
 import kotlinx.android.synthetic.main.fragment_home.*
 import kotlinx.android.synthetic.main.fragment_home.view.*
 import com.clovertech.autolibdz.model.Borne
-import com.clovertech.autolibdz.model.Vehicle
 import com.clovertech.autolibdz.utils.RetrofitInstance
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
+import java.lang.Exception
 import java.util.*
 
 class HomeFragment : Fragment() , OnMapReadyCallback , GoogleMap.OnMarkerClickListener , View.OnClickListener {
@@ -87,23 +87,26 @@ class HomeFragment : Fragment() , OnMapReadyCallback , GoogleMap.OnMarkerClickLi
 
                 val geo = Geocoder(requireContext(), Locale.getDefault())
 
-                var addresses = geo.getFromLocation(latLng.latitude, latLng.longitude, 1)
-                if (addresses.isNotEmpty()) {
+                try {
+                    var addresses = geo.getFromLocation(latLng.latitude, latLng.longitude, 1)
+                    if (addresses.isNotEmpty()) {
 
-                    ville.text = addresses[0].subAdminArea
-                    region.text = addresses[0].locality
+                        ville.text = addresses[0].subAdminArea
+                        region.text = addresses[0].locality
 //                    Toast.makeText(requireContext(), "Address:- " + addresses[0].featureName + addresses[0].adminArea + addresses[0].locality, Toast.LENGTH_LONG).show()
-                }
+                    }
 
-                val borne = closestBorne(location)
-                adapter.selectedBorne.value = borne
-                addresses = geo.getFromLocation(borne.latitude.toDouble(),
-                    borne.longitude.toDouble(), 1)
-                if (addresses.isNotEmpty()) {
-                    borne_name.text = borne.city
-                    borne_address.text = addresses[0].locality
+                    val borne = closestBorne(location)
+                    adapter.selectedBorne.value = borne
+                    addresses = geo.getFromLocation(borne.latitude.toDouble(),
+                        borne.longitude.toDouble(), 1)
+                    if (addresses.isNotEmpty()) {
+                        borne_name.text = borne.city
+                        borne_address.text = addresses[0].locality
+                    }
+                } catch(e: Exception) {
+                    Toast.makeText(requireContext(), "connection is slow! ", Toast.LENGTH_SHORT).show()
                 }
-
 
             }
         }
@@ -194,8 +197,9 @@ class HomeFragment : Fragment() , OnMapReadyCallback , GoogleMap.OnMarkerClickLi
                 moveSearchPositionDialog()
             }
             R.id.checked_park -> {
-
-                val borne = adapter.selectedBorne.value
+              //  startActivity(Intent(context, CarsActivity::class.java))
+                findNavController().navigate(R.id.nav_to_list_cars)
+               /* val borne = adapter.selectedBorne.value
 
                 if (borne != null) {
                     park_name.text = borne.city
@@ -236,7 +240,7 @@ class HomeFragment : Fragment() , OnMapReadyCallback , GoogleMap.OnMarkerClickLi
                 } else {
                     Log.e("no borne", "no selected borne found")
                 }
-
+*/
 
             }
             R.id.search_position -> {

@@ -18,11 +18,7 @@
             app:destination="@id/nav_listcar" />
     </fragment>
 
-    <fragment
-        android:id="@+id/nav_gallery"
-        android:name="com.clovertech.autolibdz.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
+
 
     <fragment
         android:id="@+id/nav_slideshow"
@@ -94,6 +90,11 @@
         android:id="@+id/nav_main"
         android:name="com.clovertech.autolibdz.ui.HomeFragment"
         android:label="fragment_home"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/nav_to_list_cars"
+            app:destination="@id/nav_home"
+            />
+    </fragment>
 
 </navigation>

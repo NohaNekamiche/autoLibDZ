@@ -59,10 +59,10 @@ class LoginActivity : AppCompatActivity() , View.OnClickListener {
         viewModel = ViewModelProvider(this, viewModelFactory)
                 .get(MainViewModel::class.java)
 
-        val intent = Intent(this, FindYourCarActivity::class.java)
-        intent.putExtra("idVehicule", 1)
-
-        startActivity(intent)
+//        val intent = Intent(this, FindYourCarActivity::class.java)
+//        intent.putExtra("idVehicule", 1)
+//
+//        startActivity(intent)
 
 //        startActivity(Intent(this, HomeActivity::class.java))
 
